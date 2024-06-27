@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:id="@+id/coordinatorLayout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ccforvirtualbbg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/video_call_toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/video_call_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:id="@+id/switch_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="23dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/switchcam" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/statusc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="EZSHIFA"
+                android:textColor="#ffffff"
+                android:textSize="17dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="19dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/signalstregnth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/goodsignal">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footerzoom2"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+
+        <ImageView
+            android:id="@+id/muteBtn"
+            android:layout_width="12dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:focusedByDefault="true"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/mic"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/video_btn"
+            android:layout_width="3dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/videoon"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp" />
+
+
+        <ImageView
+            android:id="@+id/addnotes"
+            android:layout_width="3dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/notes"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="3dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/vschaticon"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp"></ImageView>
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-14dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/more"
+            android:background="@drawable/rectangle_rounded"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:fabCustomSize="28dp"
+            app:maxImageSize="16dp" />
+
+        <ImageView
+            android:id="@+id/moreic"
+            android:layout_width="3dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/moredots"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp"></ImageView>
+
+        <ImageView
+            android:id="@+id/endCallBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:src="@drawable/endbtn"
+
+            >
+
+        </ImageView>
+    </LinearLayout>
+
+
+</RelativeLayout>

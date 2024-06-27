@@ -1,0 +1,518 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.ehealthai.doctor"
+4    android:versionCode="20"
+5    android:versionName="2.8.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:7:5-71
+12-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:7:22-68
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:8:5-80
+13-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:9:5-81
+14-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:10:5-75
+15-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:10:22-72
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:11:5-65
+16-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:11:22-62
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:12:5-80
+17-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- The Agora SDK requires Bluetooth permissions in case users are using Bluetooth devices. -->
+18-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:13:5-79
+18-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:14:5-68
+19-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:14:22-65
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:15:5-68
+20-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:15:22-65
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:16:5-76
+21-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:16:22-73
+22
+23    <uses-feature android:name="android.hardware.camera" />
+23-->[com.github.jrvansuita:PickImage:2.5.4] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:11:5-60
+23-->[com.github.jrvansuita:PickImage:2.5.4] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:11:19-57
+24    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.github.jrvansuita:PickImage:2.5.4] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:12:5-70
+24-->[com.github.jrvansuita:PickImage:2.5.4] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:12:19-67
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:22-79
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+27
+28    <application
+28-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:18:5-155:19
+29        android:name="com.example.ehealthai.MyApplication"
+29-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:19:9-59
+30        android:allowBackup="true"
+30-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:20:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.3.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/42b276c373ee907dc6e7080380baea26/core-1.3.0/AndroidManifest.xml:24:18-86
+32        android:configChanges="orientation"
+32-->[com.github.jrvansuita:PickImage:2.5.4] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:17:9-44
+33        android:debuggable="true"
+34        android:icon="@drawable/smallappicon"
+34-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:21:9-46
+35        android:label="@string/app_name"
+35-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:22:9-41
+36        android:requestLegacyExternalStorage="true"
+36-->[com.github.jrvansuita:PickImage:2.5.4] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:19:9-52
+37        android:screenOrientation="portrait"
+37-->[com.github.jrvansuita:PickImage:2.5.4] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:20:9-45
+38        android:supportsRtl="true"
+38-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:23:9-35
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme"
+40-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:24:9-40
+41        android:usesCleartextTraffic="true" >
+41-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:26:9-44
+42        <activity
+42-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:28:9-31:83
+43            android:name="com.app.ehealthai.doctor.ui.activities.PatientDetails.PatientAppointment"
+43-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:29:13-100
+44            android:label="@string/title_activity_patient_appointment"
+44-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:31:13-71
+45            android:screenOrientation="portrait" />
+45-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:30:13-49
+46
+47        <provider
+48            android:name="androidx.core.content.FileProvider"
+48-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:34:13-62
+49            android:authorities="com.app.ehealthai.doctor.com.vansuita.pickimage.provider"
+49-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:35:13-83
+50            android:exported="false"
+50-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:36:13-37
+51            android:grantUriPermissions="true" >
+51-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:37:13-47
+52            <meta-data
+52-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:39:13-41:65
+53                android:name="android.support.FILE_PROVIDER_PATHS"
+53-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:40:17-67
+54                android:resource="@xml/picker_provider_paths" />
+54-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:41:17-62
+55        </provider>
+56
+57        <activity
+57-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:44:9-46:61
+58            android:name="com.app.ehealthaidoctor.ui.activities.PatientDocumentsActivity"
+58-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:45:13-67
+59            android:screenOrientation="portrait" />
+59-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:46:13-49
+60        <activity
+60-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:47:9-50:80
+61            android:name="com.app.ehealthaidoctor.ui.activities.profile.EditProfileActivity"
+61-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:48:13-70
+62            android:screenOrientation="portrait"
+62-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:49:13-49
+63            android:windowSoftInputMode="stateVisible|adjustResize" />
+63-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:50:13-68
+64        <activity
+64-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:51:9-53:61
+65            android:name="com.app.ehealthaidoctor.ui.activities.profile.ProfileActivity"
+65-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:52:13-66
+66            android:screenOrientation="portrait" />
+66-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:53:13-49
+67        <!--
+68         <service
+69                android:name=".services.NotificationService"
+70                android:exported="false"/>
+71        -->
+72        <service
+72-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:59:9-65:19
+73            android:name="com.app.ehealthaidoctor.network.firebase.FirebaseIdService"
+73-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:60:13-63
+74            android:permission="false" >
+74-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:61:13-39
+75            <intent-filter>
+75-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:62:13-64:29
+76                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+76-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:63:17-78
+76-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:63:25-75
+77            </intent-filter>
+78        </service>
+79
+80        <meta-data
+80-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:67:9-69:72
+81            android:name="io.fabric.ApiKey"
+81-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:68:13-44
+82            android:value="d92e18922c5613091358778ee27731ca75eb9797" />
+82-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:69:13-69
+83
+84        <activity
+84-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:71:9-73:61
+85            android:name="com.app.ehealthaidoctor.ui.activities.Chat.VideoCallActivity"
+85-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:72:13-65
+86            android:screenOrientation="portrait" />
+86-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:73:13-49
+87        <activity
+87-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:74:9-76:61
+88            android:name="com.app.ehealthaidoctor.ui.activities.AppointmentDetailsActivity"
+88-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:75:13-69
+89            android:screenOrientation="portrait" />
+89-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:76:13-49
+90        <activity
+90-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:77:9-79:61
+91            android:name="com.app.ehealthaidoctor.ui.activities.BillingSummary"
+91-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:78:13-57
+92            android:screenOrientation="portrait" />
+92-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:79:13-49
+93        <activity
+93-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:80:9-82:61
+94            android:name="com.app.ehealthai.doctor.ui.activities.MainActivity"
+94-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:81:13-79
+95            android:screenOrientation="portrait" />
+95-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:82:13-49
+96        <activity android:name="com.app.ehealthaidoctor.ui.activities.AppointmentDetailsActivityNew" />
+96-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:83:9-90
+96-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:83:19-78
+97        <activity
+97-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:84:9-88:64
+98            android:name="com.app.ehealthai.doctor.ui.activities.AppNotificationsActivity"
+98-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:85:13-91
+99            android:label="Notifications History"
+99-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:86:13-50
+100            android:screenOrientation="portrait"
+100-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:87:13-49
+101            android:windowSoftInputMode="adjustPan" />
+101-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:88:13-52
+102        <activity
+102-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:89:9-98:20
+103            android:name="com.app.ehealthai.doctor.ui.activities.DisplayNotificationDialog"
+103-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:90:13-92
+104            android:label="Alert !"
+104-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:91:13-36
+105            android:theme="@style/Theme.AppCompat.Dialog" >
+105-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:92:13-58
+106            <intent-filter>
+106-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:93:13-97:29
+107                <action android:name="android.intent.action.VIEW" />
+107-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:94:17-69
+107-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:94:25-66
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:96:17-76
+109-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:96:27-73
+110            </intent-filter>
+111        </activity>
+112        <activity android:name="com.app.ehealthai.doctor.ui.activities.VitalsHistory" />
+112-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:99:9-98
+112-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:99:19-86
+113        <activity android:name="com.app.ehealthai.doctor.ui.activities.MyRatings" />
+113-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:100:9-85
+113-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:100:19-82
+114        <activity android:name="com.app.ehealthai.doctor.ui.activities.VitalsConfirmation" />
+114-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:101:9-103
+114-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:101:19-91
+115        <activity android:name="com.app.ehealthaidoctor.ui.activities.AppointmentsActivity" />
+115-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:102:9-81
+115-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:102:19-69
+116        <activity
+116-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:103:9-105:61
+117            android:name="com.app.ehealthaidoctor.ui.activities.HomeActivity"
+117-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:104:13-55
+118            android:screenOrientation="portrait" />
+118-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:105:13-49
+119        <activity
+119-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:106:9-108:61
+120            android:name="com.app.ehealthaidoctor.ui.activities.LoginActivity"
+120-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:107:13-56
+121            android:screenOrientation="portrait" />
+121-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:108:13-49
+122        <activity
+122-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:109:9-111:61
+123            android:name="com.app.ehealthaidoctor.ui.activities.RegisterNewPatient"
+123-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:110:13-61
+124            android:screenOrientation="portrait" />
+124-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:111:13-49
+125        <activity android:name="com.app.ehealthaidoctor.ui.activities.Chat.AddNewChatActivity" />
+125-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:112:9-84
+125-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:112:19-72
+126        <activity android:name="com.app.ehealthaidoctor.ui.activities.Chat.ChatActivity" />
+126-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:113:9-78
+126-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:113:19-66
+127        <activity
+127-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:114:9-117:61
+128            android:name="com.app.ehealthaidoctor.ui.activities.Chat.VideoSessionChat"
+128-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:115:13-64
+129            android:screenOrientation="portrait"
+129-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:116:13-49
+130            android:theme="@style/NoTitleDialog" />
+130-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:117:13-49
+131        <activity android:name="com.app.ehealthaidoctor.ui.activities.Chat.UserChatsActivity" />
+131-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:118:9-83
+131-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:118:19-71
+132        <activity android:name="com.app.ehealthai.doctor.ui.activities.CpVerification" />
+132-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:119:9-99
+132-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:119:19-87
+133        <activity android:name="com.app.ehealthai.doctor.ui.activities.ResetPassword" />
+133-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:120:9-98
+133-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:120:19-86
+134        <activity
+134-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:121:9-124:61
+135            android:name="com.app.ehealthai.doctor.ui.activities.VideoSessionVitalsHistory"
+135-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:122:13-92
+136            android:screenOrientation="portrait"
+136-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:123:13-49
+137            android:theme="@style/NoTitleDialog" />
+137-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:124:13-49
+138        <activity
+138-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:126:9-129:61
+139            android:name="com.app.ehealthai.doctor.ui.activities.VideoSessionMedicineHistory"
+139-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:127:13-94
+140            android:screenOrientation="portrait"
+140-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:128:13-49
+141            android:theme="@style/NoTitleDialog" />
+141-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:129:13-49
+142        <activity
+142-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:132:9-140:20
+143            android:name="com.app.ehealthaidoctor.ui.activities.splashScreen"
+143-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:133:13-55
+144            android:screenOrientation="portrait" >
+144-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:134:13-49
+145            <intent-filter>
+145-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:135:13-139:29
+146                <action android:name="android.intent.action.MAIN" />
+146-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:136:17-69
+146-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:136:25-66
+147
+148                <category android:name="android.intent.category.LAUNCHER" />
+148-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:138:17-77
+148-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:138:27-74
+149            </intent-filter>
+150        </activity>
+151        <activity
+151-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:141:9-154:20
+152            android:name="com.app.ehealthaidoctor.ui.activities.VideoSessionActivity"
+152-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:142:13-63
+153            android:screenOrientation="portrait" >
+153-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:143:13-49
+154            <intent-filter>
+154-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:144:13-153:29
+155                <data
+155-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:145:17-147:46
+156                    android:host="ezshifa.com"
+156-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:146:21-47
+157                    android:scheme="https" />
+157-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:147:21-43
+158
+159                <action android:name="android.intent.action.VIEW" />
+159-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:94:17-69
+159-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:94:25-66
+160
+161                <category android:name="android.intent.category.DEFAULT" />
+161-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:96:17-76
+161-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:96:27-73
+162                <category android:name="android.intent.category.BROWSABLE" />
+162-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:152:17-78
+162-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:152:27-75
+163            </intent-filter>
+164        </activity>
+165
+166        <service
+166-->[com.google.firebase:firebase-database:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/21c5b18c324fb728ef1480800614bdab/jetified-firebase-database-17.0.0/AndroidManifest.xml:29:9-33:19
+167            android:name="com.google.firebase.components.ComponentDiscoveryService"
+167-->[com.google.firebase:firebase-database:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/21c5b18c324fb728ef1480800614bdab/jetified-firebase-database-17.0.0/AndroidManifest.xml:29:18-89
+168            android:exported="false" >
+168-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:35:13-37
+169            <meta-data
+169-->[com.google.firebase:firebase-database:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/21c5b18c324fb728ef1480800614bdab/jetified-firebase-database-17.0.0/AndroidManifest.xml:30:13-32:85
+170                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+170-->[com.google.firebase:firebase-database:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/21c5b18c324fb728ef1480800614bdab/jetified-firebase-database-17.0.0/AndroidManifest.xml:31:17-109
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-database:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/21c5b18c324fb728ef1480800614bdab/jetified-firebase-database-17.0.0/AndroidManifest.xml:32:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-storage:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/39296a3cbb5bda900a69c229d670002f/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+173                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+173-->[com.google.firebase:firebase-storage:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/39296a3cbb5bda900a69c229d670002f/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-storage:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/39296a3cbb5bda900a69c229d670002f/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:36:13-38:85
+176                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+176-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:37:17-109
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:38:17-82
+178            <meta-data
+178-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/dd6d3dbb2a0875529d3a65d7590f3d79/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+179                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+179-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/dd6d3dbb2a0875529d3a65d7590f3d79/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/dd6d3dbb2a0875529d3a65d7590f3d79/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:32:13-34:85
+182                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+182-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:33:17-96
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:34:17-82
+184        </service>
+185        <!--
+186             FirebaseMessagingService performs security checks at runtime,
+187             but set to not exported to explicitly avoid allowing another app to call it.
+188        -->
+189        <service
+189-->[com.google.firebase:firebase-messaging:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/89d1e4e68f551c838da140e1c872ef66/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:28:9-34:19
+190            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+190-->[com.google.firebase:firebase-messaging:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/89d1e4e68f551c838da140e1c872ef66/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:29:13-82
+191            android:exported="false" >
+191-->[com.google.firebase:firebase-messaging:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/89d1e4e68f551c838da140e1c872ef66/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:30:13-37
+192            <intent-filter android:priority="-500" >
+192-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:62:13-64:29
+193                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+193-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:63:17-78
+193-->/Users/ifaisy/Desktop/Projects/Ezshifa Doctor Android/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:63:25-75
+194            </intent-filter>
+195        </service>
+196
+197        <activity
+197-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:24:9-31:50
+198            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+198-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:25:13-85
+199            android:excludeFromRecents="true"
+199-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:26:13-46
+200            android:exported="true"
+200-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:27:13-36
+201            android:launchMode="singleTask"
+201-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:28:13-44
+202            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+202-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:29:13-102
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+203-->[com.google.firebase:firebase-auth:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/83aac9f0a67682a67f149e06256394af/jetified-firebase-auth-17.0.0/AndroidManifest.xml:30:13-72
+204
+205        <provider
+205-->[com.squareup.picasso:picasso:2.71828] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/f87b48d774e378c63858e60fe092062a/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+206            android:name="com.squareup.picasso.PicassoProvider"
+206-->[com.squareup.picasso:picasso:2.71828] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/f87b48d774e378c63858e60fe092062a/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+207            android:authorities="com.app.ehealthai.doctor.com.squareup.picasso"
+207-->[com.squareup.picasso:picasso:2.71828] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/f87b48d774e378c63858e60fe092062a/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+208            android:exported="false" />
+208-->[com.squareup.picasso:picasso:2.71828] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/f87b48d774e378c63858e60fe092062a/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+209        <provider
+209-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:12:9-16:38
+210            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+210-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:13:13-75
+211            android:authorities="com.app.ehealthai.doctor.crashlyticsinitprovider"
+211-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:14:13-75
+212            android:exported="false"
+212-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:15:13-37
+213            android:initOrder="90" />
+213-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:16:13-35
+214
+215        <receiver
+215-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:37:9-44:20
+216            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+216-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:38:13-78
+217            android:exported="true"
+217-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:39:13-36
+218            android:permission="com.google.android.c2dm.permission.SEND" >
+218-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:40:13-73
+219            <intent-filter>
+219-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:41:13-43:29
+220                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+220-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:17-81
+220-->[com.google.firebase:firebase-iid:18.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/47d9d6f322fdeab4444316a6b4942de7/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:25-78
+221            </intent-filter>
+222        </receiver>
+223
+224        <activity
+224-->[com.google.android.gms:play-services-base:16.0.1] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/d793c44eccfade787418acb5a933edca/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+225            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+225-->[com.google.android.gms:play-services-base:16.0.1] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/d793c44eccfade787418acb5a933edca/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+226            android:exported="false"
+226-->[com.google.android.gms:play-services-base:16.0.1] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/d793c44eccfade787418acb5a933edca/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+227            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+227-->[com.google.android.gms:play-services-base:16.0.1] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/d793c44eccfade787418acb5a933edca/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+228
+229        <provider
+229-->[com.google.firebase:firebase-common:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/ebc6b264133f4fd25292fc7e91ed0ad6/jetified-firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+230            android:name="com.google.firebase.provider.FirebaseInitProvider"
+230-->[com.google.firebase:firebase-common:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/ebc6b264133f4fd25292fc7e91ed0ad6/jetified-firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+231            android:authorities="com.app.ehealthai.doctor.firebaseinitprovider"
+231-->[com.google.firebase:firebase-common:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/ebc6b264133f4fd25292fc7e91ed0ad6/jetified-firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+232            android:exported="false"
+232-->[com.google.firebase:firebase-common:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/ebc6b264133f4fd25292fc7e91ed0ad6/jetified-firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+233            android:initOrder="100" />
+233-->[com.google.firebase:firebase-common:17.0.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/ebc6b264133f4fd25292fc7e91ed0ad6/jetified-firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+234
+235        <receiver
+235-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+236            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+236-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+237            android:enabled="true"
+237-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+238            android:exported="false" >
+238-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+239        </receiver>
+240        <receiver
+240-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+241            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+241-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+243            android:exported="true"
+243-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+244            android:permission="android.permission.INSTALL_PACKAGES" >
+244-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+245            <intent-filter>
+245-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:39:13-41:29
+246                <action android:name="com.android.vending.INSTALL_REFERRER" />
+246-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:17-79
+246-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:25-76
+247            </intent-filter>
+248        </receiver>
+249
+250        <service
+250-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+251            android:name="com.google.android.gms.measurement.AppMeasurementService"
+251-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+252            android:enabled="true"
+252-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+253            android:exported="false" />
+253-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+254        <service
+254-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+255            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+255-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+256            android:enabled="true"
+256-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+257            android:exported="false"
+257-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+258            android:permission="android.permission.BIND_JOB_SERVICE" />
+258-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/2fcb195593024c1f5443d7bee459982b/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+259
+260        <meta-data
+260-->[com.google.android.gms:play-services-basement:16.2.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/fa8ed1927679d252cd70c0bb104b72b4/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+261            android:name="com.google.android.gms.version"
+261-->[com.google.android.gms:play-services-basement:16.2.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/fa8ed1927679d252cd70c0bb104b72b4/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+262            android:value="@integer/google_play_services_version" />
+262-->[com.google.android.gms:play-services-basement:16.2.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/fa8ed1927679d252cd70c0bb104b72b4/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+263
+264        <provider
+264-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+265            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+265-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+266            android:authorities="com.app.ehealthai.doctor.lifecycle-process"
+266-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+267            android:exported="false"
+267-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+268            android:multiprocess="true" />
+268-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/ifaisy/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+269    </application>
+270
+271</manifest>

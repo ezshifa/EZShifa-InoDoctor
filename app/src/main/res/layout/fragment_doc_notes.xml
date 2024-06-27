@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/doc_notes_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+            android:id="@+id/doc_notes_no_docs_image"
+            android:layout_width="wrap_content"
+            android:src="@drawable/no_files_images"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

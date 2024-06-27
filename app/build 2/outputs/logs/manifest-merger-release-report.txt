@@ -1,0 +1,984 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:33:9-42:20
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:21:9-29:20
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:21:9-29:20
+	android:grantUriPermissions
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:37:13-47
+	android:authorities
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:35:13-83
+		REJECTED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:23:13-66
+	android:exported
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:36:13-37
+	tools:replace
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:38:13-48
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:34:13-62
+manifest
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2bb02c284e354281414b95f764016767/navigation-ui-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ed30e8cddeb6db661a139754b245f2b6/navigation-ui-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/saadi/.gradle/caches/transforms-2/files-2.1/aead9c634699dd93a404b60014cd620f/material-1.1.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.2] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3da56ab61a03b2059d3d5b271cc1f055/firebase-ui-storage-0.6.2/AndroidManifest.xml:2:1-11:12
+MERGED from [cc.cloudist.acplibrary:library:1.2.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/40b3bb0293dbd4865557c0e6456c32fb/library-1.2.1/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.prolificinteractive:material-calendarview:1.6.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/962b5f360f7ed1554bd3383b1abc24d5/jetified-material-calendarview-1.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05bd7fda32ca0d4320e28220f92f9357/jetified-record-view-2.0.1/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] /Users/saadi/.gradle/caches/transforms-2/files-2.1/048b99de87244a7637ff4cd99581da3a/viewpager2-1.0.0-alpha02/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cbc8346abe956adb01a5b9d6e164313d/appcompat-1.1.0-alpha05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d4a2a1fc305c4f75f510cc26c5fc345f/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/fb12fb490f8edfb1cfe02e2796d880c8/fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2f7a97b08742fb70de83d32d667b596d/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/6d9ef7b064ea8912ee3be9da81b42227/navigation-common-ktx-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/9217bd3bcb75f1679d1f24527dd91d67/activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.2.0-alpha01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cabec135507410ccc5936c59308e6355/core-ktx-1.2.0-alpha01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/44746c2c00fd362e6a2a736a9946b939/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/5e4b5e43d49ccb0fd25807793d2a301d/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/e0ffc8b4d238a78fe7e748b0f6511d0e/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/def38f9ac2299403b5668ec15d75d5de/firebase-core-16.0.9/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a7f04821706f2e692a5c8515c4c0c8a1/navigation-fragment-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/497bc98df1afbadab2858c8c57d80c1a/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3ada12ae73be89f3eac21ff4378f0a66/jetified-circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [io.reactivex:rxandroid:1.2.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c3955faf8a92784839646ffd39bcf70/rxandroid-1.2.1/AndroidManifest.xml:15:1-21:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b8f78e6dba2229de643f358d30534fc1/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.piasy:rxandroidaudio:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/734a6d4ce69a3de45ab5f749649f3176/rxandroidaudio-1.7.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.piasy:AudioProcessor:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/162108879833815d7d7c192c8d68f864/AudioProcessor-1.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f90236376e95ef10602000d5a9b3ee78/searchablespinnerlibrary-1.3.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:2:1-32:12
+MERGED from [com.jakewharton:butterknife:10.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/75ea7e7541b1f2510e5ec6ce94ad01dc/butterknife-10.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b66bb5962a6fbc127c6f491e3ae0b1b6/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dc7c2ac46d315700c22d85257cf95695/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d7f0f92eafce4452a0e85270a7bf0f80/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/75a12c7ccb10c7042109e326e00d6cc6/jetified-firebase-auth-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/508d1455688ade6df3f4eba092fbbbbe/play-services-flags-16.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/18f4e1a0698dc9a9257f9468a91f285e/firebase-analytics-16.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ca9d4cdcb45b129d9a9438f0c7ef073c/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/47a405492fe7375582ed62cf6e86635a/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f1651cfce2e002eb72fa09774716f7ef/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c94a29434ccae515295502f3ea98e1d/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/56955f346c8abf94f91ad4ca5fde8930/jetified-play-services-stats-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/69c599aaf3a54b588665c974bb18c8d5/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f225b18338bfe532db38dfc8dabe2a5b/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ec88bcef60f62e794e9f6e511e3744a9/jetified-play-services-basement-16.2.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872df6d62ac7d545b6da3390c2f869ae/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/91a0234fec68a857989cb3cad23520b6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/17df7bb83bd4fa8622e2af3518c1a0b4/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/saadi/.gradle/caches/transforms-2/files-2.1/221e4ce9efb80b266039f369ac12752c/appcompat-resources-1.1.0-alpha05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/04ada9290751c0638dc1aa373b775a6e/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/aac4203e3b9f5f50acfdfa2794c1d52e/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a32c17eaac0a4407962f767e9f6c0b22/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f830d28aa9604f99258494702635d5de/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/53230f00b1500cbf2713e4daec6befc5/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4a57698a4210750f2ae70275af65361f/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b517c0ad8e165a1dc809fe4ad91820ca/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0e5876d0b037ff95d704c18f39ea5fda/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f507d1323c0db48daf318520281ac1c7/recyclerview-1.1.0-alpha03/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f7743d86a710eb620c8bad7fe14c6bd2/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ce1706e2dc79555ac8e26d4c4118b7c5/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2ecf53e0492370c5035375fca56a9778/navigation-runtime-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c0e1e10050af9b39c2816e628d678b11/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/802004fce6e775a9723357af019cdb2a/butterknife-runtime-10.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b763653b83eaf4638a841a8b23724d11/vectordrawable-animated-1.1.0-beta01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4f0cb3b4ef494007e6a1345aec549f5f/vectordrawable-1.1.0-beta01/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/26568733ca1a2a70bb5a96db0cc29ffb/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0310a0421e2d5536611d44ef84e41dc5/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/1455a52eb51b6523575ae1e453539400/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/728bbf09b1b7b64e80a7e7cdfe633f34/navigation-common-2.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/643f6779c6d0c3baff378ebf62ddbe46/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/42b276c373ee907dc6e7080380baea26/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/248f2bdfbd2be3e9bdeeefc65459cb2c/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c30a8981145dfd3949645877cf2a6d89/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3b92bda7e5e38ddaa19911b18125db1e/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/1cc2b1fd3912c9e19b143d1e76d0b915/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/53da8183aac5293ce1d410967bddba31/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3d11f9e453a518a4251dcf7b61a83810/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b57795aaed747d8f025a4fe14a62fb58/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dde7dd6207971b090e513b880b0c73c4/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/616e774ce9af9394eac5063685b334db/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0b3e32c652109329864ba5f2a7f3312d/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/950eae10c6f1d18821fbff65002fcef8/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/5c2d2bdca66789fcdb1279766f6f132f/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ac3506f375ff4ab788093b2176858cb6/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4c45f0ad9b8a0c329c96bec512f97bc4/firebase-database-collection-16.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ee19b46e6e183fd1ffe8523800319617/shimmerlayout-2.1.0/AndroidManifest.xml:2:1-14:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/707cf4c61a6b79675be602b240800cdd/crashlytics-core-2.6.8/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/saadi/.gradle/caches/transforms-2/files-2.1/8a79a4873c2da3d3be8345d483164ca2/jetified-answers-1.4.7/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872441fcecc5c5fc1ea8d918153e4c73/fabric-1.4.8/AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/saadi/.gradle/caches/transforms-2/files-2.1/32a12fe3d0587c10dfd09804293ca670/beta-1.2.10/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+	package
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:4:5-38
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:1-157:12
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/707cf4c61a6b79675be602b240800cdd/crashlytics-core-2.6.8/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/707cf4c61a6b79675be602b240800cdd/crashlytics-core-2.6.8/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/saadi/.gradle/caches/transforms-2/files-2.1/8a79a4873c2da3d3be8345d483164ca2/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/saadi/.gradle/caches/transforms-2/files-2.1/8a79a4873c2da3d3be8345d483164ca2/jetified-answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872441fcecc5c5fc1ea8d918153e4c73/fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872441fcecc5c5fc1ea8d918153e4c73/fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/saadi/.gradle/caches/transforms-2/files-2.1/32a12fe3d0587c10dfd09804293ca670/beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/saadi/.gradle/caches/transforms-2/files-2.1/32a12fe3d0587c10dfd09804293ca670/beta-1.2.10/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:7:5-71
+MERGED from [com.github.piasy:rxandroidaudio:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/734a6d4ce69a3de45ab5f749649f3176/rxandroidaudio-1.7.0/AndroidManifest.xml:11:5-71
+MERGED from [com.github.piasy:rxandroidaudio:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/734a6d4ce69a3de45ab5f749649f3176/rxandroidaudio-1.7.0/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:9:5-81
+MERGED from [com.github.piasy:rxandroidaudio:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/734a6d4ce69a3de45ab5f749649f3176/rxandroidaudio-1.7.0/AndroidManifest.xml:12:5-81
+MERGED from [com.github.piasy:rxandroidaudio:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/734a6d4ce69a3de45ab5f749649f3176/rxandroidaudio-1.7.0/AndroidManifest.xml:12:5-81
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:14:5-81
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.CAMERA
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:11:5-65
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:9:5-65
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:15:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:15:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:16:22-73
+application
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:18:5-155:19
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/saadi/.gradle/caches/transforms-2/files-2.1/aead9c634699dd93a404b60014cd620f/material-1.1.0-alpha06/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/saadi/.gradle/caches/transforms-2/files-2.1/aead9c634699dd93a404b60014cd620f/material-1.1.0-alpha06/AndroidManifest.xml:22:5-20
+MERGED from [com.github.prolificinteractive:material-calendarview:1.6.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/962b5f360f7ed1554bd3383b1abc24d5/jetified-material-calendarview-1.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.prolificinteractive:material-calendarview:1.6.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/962b5f360f7ed1554bd3383b1abc24d5/jetified-material-calendarview-1.6.0/AndroidManifest.xml:11:5-20
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05bd7fda32ca0d4320e28220f92f9357/jetified-record-view-2.0.1/AndroidManifest.xml:9:5-13:19
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05bd7fda32ca0d4320e28220f92f9357/jetified-record-view-2.0.1/AndroidManifest.xml:9:5-13:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/44746c2c00fd362e6a2a736a9946b939/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/44746c2c00fd362e6a2a736a9946b939/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/e0ffc8b4d238a78fe7e748b0f6511d0e/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/e0ffc8b4d238a78fe7e748b0f6511d0e/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/def38f9ac2299403b5668ec15d75d5de/firebase-core-16.0.9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/def38f9ac2299403b5668ec15d75d5de/firebase-core-16.0.9/AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/497bc98df1afbadab2858c8c57d80c1a/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/497bc98df1afbadab2858c8c57d80c1a/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3ada12ae73be89f3eac21ff4378f0a66/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3ada12ae73be89f3eac21ff4378f0a66/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f90236376e95ef10602000d5a9b3ee78/searchablespinnerlibrary-1.3.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f90236376e95ef10602000d5a9b3ee78/searchablespinnerlibrary-1.3.1/AndroidManifest.xml:11:5-15:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:16:5-30:19
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:16:5-30:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/75a12c7ccb10c7042109e326e00d6cc6/jetified-firebase-auth-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/75a12c7ccb10c7042109e326e00d6cc6/jetified-firebase-auth-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/18f4e1a0698dc9a9257f9468a91f285e/firebase-analytics-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/18f4e1a0698dc9a9257f9468a91f285e/firebase-analytics-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ca9d4cdcb45b129d9a9438f0c7ef073c/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ca9d4cdcb45b129d9a9438f0c7ef073c/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/47a405492fe7375582ed62cf6e86635a/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/47a405492fe7375582ed62cf6e86635a/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f1651cfce2e002eb72fa09774716f7ef/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f1651cfce2e002eb72fa09774716f7ef/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c94a29434ccae515295502f3ea98e1d/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c94a29434ccae515295502f3ea98e1d/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/56955f346c8abf94f91ad4ca5fde8930/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/56955f346c8abf94f91ad4ca5fde8930/jetified-play-services-stats-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/69c599aaf3a54b588665c974bb18c8d5/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/69c599aaf3a54b588665c974bb18c8d5/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f225b18338bfe532db38dfc8dabe2a5b/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f225b18338bfe532db38dfc8dabe2a5b/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ec88bcef60f62e794e9f6e511e3744a9/jetified-play-services-basement-16.2.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ec88bcef60f62e794e9f6e511e3744a9/jetified-play-services-basement-16.2.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.core:core:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/42b276c373ee907dc6e7080380baea26/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/42b276c373ee907dc6e7080380baea26/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ac3506f375ff4ab788093b2176858cb6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ac3506f375ff4ab788093b2176858cb6/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ee19b46e6e183fd1ffe8523800319617/shimmerlayout-2.1.0/AndroidManifest.xml:12:5-20
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ee19b46e6e183fd1ffe8523800319617/shimmerlayout-2.1.0/AndroidManifest.xml:12:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/707cf4c61a6b79675be602b240800cdd/crashlytics-core-2.6.8/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/707cf4c61a6b79675be602b240800cdd/crashlytics-core-2.6.8/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/saadi/.gradle/caches/transforms-2/files-2.1/8a79a4873c2da3d3be8345d483164ca2/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/saadi/.gradle/caches/transforms-2/files-2.1/8a79a4873c2da3d3be8345d483164ca2/jetified-answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872441fcecc5c5fc1ea8d918153e4c73/fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872441fcecc5c5fc1ea8d918153e4c73/fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/saadi/.gradle/caches/transforms-2/files-2.1/32a12fe3d0587c10dfd09804293ca670/beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/saadi/.gradle/caches/transforms-2/files-2.1/32a12fe3d0587c10dfd09804293ca670/beta-1.2.10/AndroidManifest.xml:11:5-20
+	android:screenOrientation
+		ADDED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:20:9-45
+	android:requestLegacyExternalStorage
+		ADDED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:19:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/42b276c373ee907dc6e7080380baea26/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:22:9-41
+	tools:ignore
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:27:9-49
+	android:configChanges
+		ADDED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:17:9-44
+	android:icon
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:21:9-46
+	android:allowBackup
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:24:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:19:9-59
+activity#com.app.ehealthai.doctor.ui.activities.PatientDetails.PatientAppointment
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:28:9-31:83
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:31:13-71
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:29:13-100
+activity#com.app.ehealthaidoctor.ui.activities.PatientDocumentsActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:44:9-46:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:45:13-67
+activity#com.app.ehealthaidoctor.ui.activities.profile.EditProfileActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:47:9-50:80
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:49:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:50:13-68
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:48:13-70
+activity#com.app.ehealthaidoctor.ui.activities.profile.ProfileActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:51:9-53:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:53:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:52:13-66
+service#com.app.ehealthaidoctor.network.firebase.FirebaseIdService
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:59:9-65:19
+	android:permission
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:61:13-39
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:60:13-63
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:62:13-64:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:63:17-78
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:63:25-75
+meta-data#io.fabric.ApiKey
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:67:9-69:72
+	android:value
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:69:13-69
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:68:13-44
+activity#com.app.ehealthaidoctor.ui.activities.Chat.VideoCallActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:71:9-73:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:72:13-65
+activity#com.app.ehealthaidoctor.ui.activities.AppointmentDetailsActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:74:9-76:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:76:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:75:13-69
+activity#com.app.ehealthaidoctor.ui.activities.BillingSummary
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:77:9-79:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:78:13-57
+activity#com.app.ehealthai.doctor.ui.activities.MainActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:80:9-82:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:81:13-79
+activity#com.app.ehealthaidoctor.ui.activities.AppointmentDetailsActivityNew
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:83:9-90
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:83:19-78
+activity#com.app.ehealthai.doctor.ui.activities.AppNotificationsActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:84:9-88:64
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:87:13-49
+	android:label
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:86:13-50
+	android:windowSoftInputMode
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:88:13-52
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:85:13-91
+activity#com.app.ehealthai.doctor.ui.activities.DisplayNotificationDialog
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:89:9-98:20
+	android:label
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:91:13-36
+	android:theme
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:92:13-58
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:90:13-92
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:93:13-97:29
+action#android.intent.action.VIEW
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:94:17-69
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:94:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:96:17-76
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:96:27-73
+activity#com.app.ehealthai.doctor.ui.activities.VitalsHistory
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:99:9-98
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:99:19-86
+activity#com.app.ehealthai.doctor.ui.activities.MyRatings
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:100:9-85
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:100:19-82
+activity#com.app.ehealthai.doctor.ui.activities.VitalsConfirmation
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:101:9-103
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:101:19-91
+activity#com.app.ehealthaidoctor.ui.activities.AppointmentsActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:102:9-81
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:102:19-69
+activity#com.app.ehealthaidoctor.ui.activities.HomeActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:103:9-105:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:104:13-55
+activity#com.app.ehealthaidoctor.ui.activities.LoginActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:106:9-108:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:108:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:107:13-56
+activity#com.app.ehealthaidoctor.ui.activities.RegisterNewPatient
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:109:9-111:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:111:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:110:13-61
+activity#com.app.ehealthaidoctor.ui.activities.Chat.AddNewChatActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:112:9-84
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:112:19-72
+activity#com.app.ehealthaidoctor.ui.activities.Chat.ChatActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:113:9-78
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:113:19-66
+activity#com.app.ehealthaidoctor.ui.activities.Chat.VideoSessionChat
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:114:9-117:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:116:13-49
+	android:theme
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:115:13-64
+activity#com.app.ehealthaidoctor.ui.activities.Chat.UserChatsActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:118:9-83
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:118:19-71
+activity#com.app.ehealthai.doctor.ui.activities.CpVerification
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:119:9-99
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:119:19-87
+activity#com.app.ehealthai.doctor.ui.activities.ResetPassword
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:120:9-98
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:120:19-86
+activity#com.app.ehealthai.doctor.ui.activities.VideoSessionVitalsHistory
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:121:9-124:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:123:13-49
+	android:theme
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:122:13-92
+activity#com.app.ehealthai.doctor.ui.activities.VideoSessionMedicineHistory
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:126:9-129:61
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:128:13-49
+	android:theme
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:129:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:127:13-94
+activity#com.app.ehealthaidoctor.ui.activities.splashScreen
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:132:9-140:20
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:133:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:135:13-139:29
+action#android.intent.action.MAIN
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:136:17-69
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:136:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:138:17-77
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:138:27-74
+activity#com.app.ehealthaidoctor.ui.activities.VideoSessionActivity
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:141:9-154:20
+	android:screenOrientation
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:143:13-49
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:142:13-63
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:ezshifa.com+data:scheme:https
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:144:13-153:29
+data
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:145:17-147:46
+	android:host
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:146:21-47
+	android:scheme
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:147:21-43
+category#android.intent.category.BROWSABLE
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:152:17-78
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:152:27-75
+uses-sdk
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2bb02c284e354281414b95f764016767/navigation-ui-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2bb02c284e354281414b95f764016767/navigation-ui-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ed30e8cddeb6db661a139754b245f2b6/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ed30e8cddeb6db661a139754b245f2b6/navigation-ui-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/saadi/.gradle/caches/transforms-2/files-2.1/aead9c634699dd93a404b60014cd620f/material-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha06] /Users/saadi/.gradle/caches/transforms-2/files-2.1/aead9c634699dd93a404b60014cd620f/material-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.2] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3da56ab61a03b2059d3d5b271cc1f055/firebase-ui-storage-0.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-storage:0.6.2] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3da56ab61a03b2059d3d5b271cc1f055/firebase-ui-storage-0.6.2/AndroidManifest.xml:7:5-9:41
+MERGED from [cc.cloudist.acplibrary:library:1.2.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/40b3bb0293dbd4865557c0e6456c32fb/library-1.2.1/AndroidManifest.xml:8:5-10:41
+MERGED from [cc.cloudist.acplibrary:library:1.2.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/40b3bb0293dbd4865557c0e6456c32fb/library-1.2.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.prolificinteractive:material-calendarview:1.6.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/962b5f360f7ed1554bd3383b1abc24d5/jetified-material-calendarview-1.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.prolificinteractive:material-calendarview:1.6.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/962b5f360f7ed1554bd3383b1abc24d5/jetified-material-calendarview-1.6.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05bd7fda32ca0d4320e28220f92f9357/jetified-record-view-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.devlomi.record-view:record-view:2.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05bd7fda32ca0d4320e28220f92f9357/jetified-record-view-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] /Users/saadi/.gradle/caches/transforms-2/files-2.1/048b99de87244a7637ff4cd99581da3a/viewpager2-1.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha02] /Users/saadi/.gradle/caches/transforms-2/files-2.1/048b99de87244a7637ff4cd99581da3a/viewpager2-1.0.0-alpha02/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cbc8346abe956adb01a5b9d6e164313d/appcompat-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cbc8346abe956adb01a5b9d6e164313d/appcompat-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d4a2a1fc305c4f75f510cc26c5fc345f/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d4a2a1fc305c4f75f510cc26c5fc345f/navigation-fragment-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/fb12fb490f8edfb1cfe02e2796d880c8/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/fb12fb490f8edfb1cfe02e2796d880c8/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2f7a97b08742fb70de83d32d667b596d/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2f7a97b08742fb70de83d32d667b596d/navigation-runtime-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/6d9ef7b064ea8912ee3be9da81b42227/navigation-common-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/6d9ef7b064ea8912ee3be9da81b42227/navigation-common-ktx-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/9217bd3bcb75f1679d1f24527dd91d67/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/9217bd3bcb75f1679d1f24527dd91d67/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.2.0-alpha01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cabec135507410ccc5936c59308e6355/core-ktx-1.2.0-alpha01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.2.0-alpha01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cabec135507410ccc5936c59308e6355/core-ktx-1.2.0-alpha01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/44746c2c00fd362e6a2a736a9946b939/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/44746c2c00fd362e6a2a736a9946b939/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/5e4b5e43d49ccb0fd25807793d2a301d/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/5e4b5e43d49ccb0fd25807793d2a301d/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/e0ffc8b4d238a78fe7e748b0f6511d0e/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/e0ffc8b4d238a78fe7e748b0f6511d0e/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/def38f9ac2299403b5668ec15d75d5de/firebase-core-16.0.9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/def38f9ac2299403b5668ec15d75d5de/firebase-core-16.0.9/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a7f04821706f2e692a5c8515c4c0c8a1/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a7f04821706f2e692a5c8515c4c0c8a1/navigation-fragment-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/497bc98df1afbadab2858c8c57d80c1a/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/497bc98df1afbadab2858c8c57d80c1a/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3ada12ae73be89f3eac21ff4378f0a66/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3ada12ae73be89f3eac21ff4378f0a66/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [io.reactivex:rxandroid:1.2.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c3955faf8a92784839646ffd39bcf70/rxandroid-1.2.1/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c3955faf8a92784839646ffd39bcf70/rxandroid-1.2.1/AndroidManifest.xml:19:5-43
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b8f78e6dba2229de643f358d30534fc1/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b8f78e6dba2229de643f358d30534fc1/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.piasy:rxandroidaudio:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/734a6d4ce69a3de45ab5f749649f3176/rxandroidaudio-1.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.piasy:rxandroidaudio:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/734a6d4ce69a3de45ab5f749649f3176/rxandroidaudio-1.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.piasy:AudioProcessor:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/162108879833815d7d7c192c8d68f864/AudioProcessor-1.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.piasy:AudioProcessor:1.7.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/162108879833815d7d7c192c8d68f864/AudioProcessor-1.7.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f90236376e95ef10602000d5a9b3ee78/searchablespinnerlibrary-1.3.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.toptoche.searchablespinner:searchablespinnerlibrary:1.3.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f90236376e95ef10602000d5a9b3ee78/searchablespinnerlibrary-1.3.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:7:5-43
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:10.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/75ea7e7541b1f2510e5ec6ce94ad01dc/butterknife-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/75ea7e7541b1f2510e5ec6ce94ad01dc/butterknife-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b66bb5962a6fbc127c6f491e3ae0b1b6/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b66bb5962a6fbc127c6f491e3ae0b1b6/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dc7c2ac46d315700c22d85257cf95695/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dc7c2ac46d315700c22d85257cf95695/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d7f0f92eafce4452a0e85270a7bf0f80/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d7f0f92eafce4452a0e85270a7bf0f80/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/75a12c7ccb10c7042109e326e00d6cc6/jetified-firebase-auth-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/75a12c7ccb10c7042109e326e00d6cc6/jetified-firebase-auth-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/508d1455688ade6df3f4eba092fbbbbe/play-services-flags-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/508d1455688ade6df3f4eba092fbbbbe/play-services-flags-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/18f4e1a0698dc9a9257f9468a91f285e/firebase-analytics-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/18f4e1a0698dc9a9257f9468a91f285e/firebase-analytics-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ca9d4cdcb45b129d9a9438f0c7ef073c/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ca9d4cdcb45b129d9a9438f0c7ef073c/jetified-firebase-iid-interop-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/47a405492fe7375582ed62cf6e86635a/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/47a405492fe7375582ed62cf6e86635a/jetified-play-services-tasks-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f1651cfce2e002eb72fa09774716f7ef/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f1651cfce2e002eb72fa09774716f7ef/jetified-firebase-measurement-connector-17.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c94a29434ccae515295502f3ea98e1d/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c94a29434ccae515295502f3ea98e1d/jetified-play-services-measurement-sdk-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/56955f346c8abf94f91ad4ca5fde8930/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/56955f346c8abf94f91ad4ca5fde8930/jetified-play-services-stats-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/69c599aaf3a54b588665c974bb18c8d5/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/69c599aaf3a54b588665c974bb18c8d5/jetified-play-services-measurement-base-16.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f225b18338bfe532db38dfc8dabe2a5b/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f225b18338bfe532db38dfc8dabe2a5b/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ec88bcef60f62e794e9f6e511e3744a9/jetified-play-services-basement-16.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ec88bcef60f62e794e9f6e511e3744a9/jetified-play-services-basement-16.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872df6d62ac7d545b6da3390c2f869ae/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872df6d62ac7d545b6da3390c2f869ae/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/91a0234fec68a857989cb3cad23520b6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/91a0234fec68a857989cb3cad23520b6/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/17df7bb83bd4fa8622e2af3518c1a0b4/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/17df7bb83bd4fa8622e2af3518c1a0b4/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/saadi/.gradle/caches/transforms-2/files-2.1/221e4ce9efb80b266039f369ac12752c/appcompat-resources-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] /Users/saadi/.gradle/caches/transforms-2/files-2.1/221e4ce9efb80b266039f369ac12752c/appcompat-resources-1.1.0-alpha05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/04ada9290751c0638dc1aa373b775a6e/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/04ada9290751c0638dc1aa373b775a6e/coordinatorlayout-1.1.0-alpha01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/aac4203e3b9f5f50acfdfa2794c1d52e/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/aac4203e3b9f5f50acfdfa2794c1d52e/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a32c17eaac0a4407962f767e9f6c0b22/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a32c17eaac0a4407962f767e9f6c0b22/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f830d28aa9604f99258494702635d5de/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f830d28aa9604f99258494702635d5de/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/53230f00b1500cbf2713e4daec6befc5/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/53230f00b1500cbf2713e4daec6befc5/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4a57698a4210750f2ae70275af65361f/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4a57698a4210750f2ae70275af65361f/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b517c0ad8e165a1dc809fe4ad91820ca/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b517c0ad8e165a1dc809fe4ad91820ca/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0e5876d0b037ff95d704c18f39ea5fda/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0e5876d0b037ff95d704c18f39ea5fda/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f507d1323c0db48daf318520281ac1c7/recyclerview-1.1.0-alpha03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha03] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f507d1323c0db48daf318520281ac1c7/recyclerview-1.1.0-alpha03/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f7743d86a710eb620c8bad7fe14c6bd2/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/f7743d86a710eb620c8bad7fe14c6bd2/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ce1706e2dc79555ac8e26d4c4118b7c5/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ce1706e2dc79555ac8e26d4c4118b7c5/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2ecf53e0492370c5035375fca56a9778/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2ecf53e0492370c5035375fca56a9778/navigation-runtime-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c0e1e10050af9b39c2816e628d678b11/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c0e1e10050af9b39c2816e628d678b11/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/802004fce6e775a9723357af019cdb2a/butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/802004fce6e775a9723357af019cdb2a/butterknife-runtime-10.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b763653b83eaf4638a841a8b23724d11/vectordrawable-animated-1.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b763653b83eaf4638a841a8b23724d11/vectordrawable-animated-1.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4f0cb3b4ef494007e6a1345aec549f5f/vectordrawable-1.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4f0cb3b4ef494007e6a1345aec549f5f/vectordrawable-1.1.0-beta01/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/26568733ca1a2a70bb5a96db0cc29ffb/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/26568733ca1a2a70bb5a96db0cc29ffb/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0310a0421e2d5536611d44ef84e41dc5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0310a0421e2d5536611d44ef84e41dc5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/1455a52eb51b6523575ae1e453539400/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/1455a52eb51b6523575ae1e453539400/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/728bbf09b1b7b64e80a7e7cdfe633f34/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] /Users/saadi/.gradle/caches/transforms-2/files-2.1/728bbf09b1b7b64e80a7e7cdfe633f34/navigation-common-2.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/643f6779c6d0c3baff378ebf62ddbe46/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/643f6779c6d0c3baff378ebf62ddbe46/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/42b276c373ee907dc6e7080380baea26/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/42b276c373ee907dc6e7080380baea26/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/248f2bdfbd2be3e9bdeeefc65459cb2c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/248f2bdfbd2be3e9bdeeefc65459cb2c/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c30a8981145dfd3949645877cf2a6d89/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c30a8981145dfd3949645877cf2a6d89/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3b92bda7e5e38ddaa19911b18125db1e/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3b92bda7e5e38ddaa19911b18125db1e/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/1cc2b1fd3912c9e19b143d1e76d0b915/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/1cc2b1fd3912c9e19b143d1e76d0b915/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/53da8183aac5293ce1d410967bddba31/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/53da8183aac5293ce1d410967bddba31/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3d11f9e453a518a4251dcf7b61a83810/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/3d11f9e453a518a4251dcf7b61a83810/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b57795aaed747d8f025a4fe14a62fb58/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b57795aaed747d8f025a4fe14a62fb58/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dde7dd6207971b090e513b880b0c73c4/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dde7dd6207971b090e513b880b0c73c4/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/616e774ce9af9394eac5063685b334db/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/616e774ce9af9394eac5063685b334db/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0b3e32c652109329864ba5f2a7f3312d/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/0b3e32c652109329864ba5f2a7f3312d/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/950eae10c6f1d18821fbff65002fcef8/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/950eae10c6f1d18821fbff65002fcef8/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/5c2d2bdca66789fcdb1279766f6f132f/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/5c2d2bdca66789fcdb1279766f6f132f/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ac3506f375ff4ab788093b2176858cb6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ac3506f375ff4ab788093b2176858cb6/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4c45f0ad9b8a0c329c96bec512f97bc4/firebase-database-collection-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/4c45f0ad9b8a0c329c96bec512f97bc4/firebase-database-collection-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ee19b46e6e183fd1ffe8523800319617/shimmerlayout-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [io.supercharge:shimmerlayout:2.1.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ee19b46e6e183fd1ffe8523800319617/shimmerlayout-2.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/707cf4c61a6b79675be602b240800cdd/crashlytics-core-2.6.8/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/707cf4c61a6b79675be602b240800cdd/crashlytics-core-2.6.8/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/saadi/.gradle/caches/transforms-2/files-2.1/8a79a4873c2da3d3be8345d483164ca2/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /Users/saadi/.gradle/caches/transforms-2/files-2.1/8a79a4873c2da3d3be8345d483164ca2/jetified-answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872441fcecc5c5fc1ea8d918153e4c73/fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /Users/saadi/.gradle/caches/transforms-2/files-2.1/872441fcecc5c5fc1ea8d918153e4c73/fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/saadi/.gradle/caches/transforms-2/files-2.1/32a12fe3d0587c10dfd09804293ca670/beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/saadi/.gradle/caches/transforms-2/files-2.1/32a12fe3d0587c10dfd09804293ca670/beta-1.2.10/AndroidManifest.xml:7:5-43
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:39:13-41:65
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:26:13-28:65
+MERGED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:26:13-28:65
+	android:resource
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:41:17-62
+	android:name
+		ADDED from /Users/saadi/Desktop/saadi/Android Projects Stuff/EHealthAIDoctorApp/app/src/main/AndroidManifest.xml:40:17-67
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:29:18-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/55f711ed0da0c89e76a80a0227467911/jetified-firebase-database-17.0.0/AndroidManifest.xml:31:17-109
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/e0ffc8b4d238a78fe7e748b0f6511d0e/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/e0ffc8b4d238a78fe7e748b0f6511d0e/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/e0ffc8b4d238a78fe7e748b0f6511d0e/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/d0b2236ad69ff5742e81bd5bb5281b35/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/dd0be97dfde015b52882665c9d69a4a9/jetified-firebase-auth-17.0.0/AndroidManifest.xml:37:17-109
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/saadi/.gradle/caches/transforms-2/files-2.1/a6a483ce595f20382a9639795b3809a1/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /Users/saadi/.gradle/caches/transforms-2/files-2.1/952ea65d1ea2c53d3ee21e19c2169ed3/crashlytics-2.9.9/AndroidManifest.xml:13:13-75
+uses-feature#android.hardware.camera
+ADDED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from [com.github.jrvansuita:PickImage:2.5.4] /Users/saadi/.gradle/caches/transforms-2/files-2.1/99bd77b22d1eaad1648306799406e388/PickImage-2.5.4/AndroidManifest.xml:12:19-67
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/05c12768ef0b4a9b202018a03a4fa61a/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/b43415bcb001c1d1ca1948b35750353d/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/saadi/.gradle/caches/transforms-2/files-2.1/2c77c66e690a345bc233a6d4746f3979/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/cc60b7801ba0fa97ae8928cb11b39fe7/jetified-firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/43e7ca89350ec9558db967fd151f13d8/jetified-play-services-measurement-impl-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/adfdb94fa46d940f017fdd9839471f91/jetified-play-services-measurement-sdk-api-16.5.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/c5d14569b70474ab836eb1ad68e6d267/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ec88bcef60f62e794e9f6e511e3744a9/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ec88bcef60f62e794e9f6e511e3744a9/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/ec88bcef60f62e794e9f6e511e3744a9/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/saadi/.gradle/caches/transforms-2/files-2.1/7cf63ff4c3279efb5142dda458643ff5/lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

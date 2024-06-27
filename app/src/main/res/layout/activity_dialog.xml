@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Start Compaign!"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bodyy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:lineSpacingExtra="3dp"
+                android:text="Ambassador is waiting for your compaign to start. Do you want to start your compaign ?"
+                android:textColor="#87000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imagenotifd"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_below="@+id/rdetails"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="9dp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/start_compaign_yes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="2"
+                    android:background="@color/colorPrimary"
+                    android:text="Close"
+                    android:textAllCaps="false"
+                    android:textColor="#f5f1f1f1"
+                    android:textSize="22dp" />
+
+                <Button
+                    android:id="@+id/start_compaign_no"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="No"
+                    android:textColor="#f5f1f1f1"
+                    android:textSize="22dp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

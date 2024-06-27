@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/vitalsh_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/vhisitem">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="By"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/datee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_alignLeft="@+id/name"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="10dp"
+            android:text="date:"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bmival"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/datee"
+            android:layout_alignLeft="@+id/name"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="10dp"
+            android:text="BMI:"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="right"
+            android:text="View Details"
+            android:textColor="#BD75B1"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/delh"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:gravity="right"
+            android:src="@drawable/delicon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/weightt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vitalsh_layout"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/tempicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/temperatureicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tempicon"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:text="Temparature"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/temptxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:maxWidth="50dp"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_bp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/bpicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bpicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bpicon"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:text="Blood Pressure"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/bptxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:maxWidth="50dp"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weightt_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weightt_layout"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_pulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/pulseicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/heartrateicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pulseicon"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:text="Pulse Rate"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/pulsetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:maxWidth="50dp"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_breathing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/breathicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/breathicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/breathicon"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="4dp"
+                android:text="Breathing Rate"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/breathtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:maxWidth="50dp"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weightt_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weightt_layout2"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_ocygen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/oxygenicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/oxygenicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oxygenicon"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:text="Oxygen "
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/oxygentxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:maxWidth="50dp"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_sugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/sugaricon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sugaricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sugaricon"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:text="Sugar Level"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/sugartxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:maxWidth="50dp"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weightt_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weightt_layout3"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/heighticon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/heighticon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heighticon"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:text="Height"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/heighttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:maxWidth="50dp"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/weighticon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/weighticon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weighticon"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="4dp"
+                android:text="Weight"
+                android:textColor="@color/colorBlack"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/weighttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:maxWidth="50dp"
+                android:text=""
+                android:textColor="@color/colorBlack"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_vhr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:visibility="gone" />
+</RelativeLayout>

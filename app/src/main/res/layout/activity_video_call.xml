@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/relative_layout"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/video_call_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp">
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+            <ImageView
+                    android:id="@+id/video_call_back_btn"
+                    android:src="@drawable/ic_arrow_back_white_24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_width="36dp"
+                    android:scaleType="center"
+                    android:layout_height="36dp"/>
+            <TextView
+                    android:id="@+id/video_call_activity_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Telemedicine"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/statusc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:textSize="16sp"
+                android:layout_alignParentRight="true"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="5dp"
+                android:text="Calling..."/>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:id="@+id/friend_frame_layout"
+            android:layout_below="@+id/video_call_toolbar"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+    </FrameLayout>
+
+    <TextView
+            android:id="@+id/start_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="120dp"
+            android:visibility="gone"
+            android:text="Welcome to the TeleMedicine room. Please press Start Call to start your appointment "/>
+
+    <FrameLayout
+            android:layout_width="100dp"
+            android:id="@+id/my_frame_layout"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="102dp"
+            android:layout_marginEnd="16dp"
+            android:layout_above="@+id/btns_layout"
+            tools:context=".MainActivity">
+    </FrameLayout>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Start Call"
+            android:layout_marginBottom="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/startCallBtn"
+    android:visibility="gone"/>
+   <!-- <Button
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="End Call"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="18sp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/endCallBtn"/>-->
+    <LinearLayout
+            android:id="@+id/btns_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/muteBtn"
+                android:src="@drawable/ic_mic_on_white_24dp"
+                android:layout_marginEnd="64dp"
+                android:layout_gravity="center_vertical"
+                app:backgroundTint="@color/colorPrimary"
+                app:fabCustomSize="48dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/endCallBtn"
+                android:src="@drawable/ic_call_end_white_24dp"
+                app:backgroundTint="@color/red"
+                app:fabCustomSize="78dp"
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/video_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="16dp"
+
+            android:src="@drawable/ic_videocam_on_24dp"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabCustomSize="48dp" />
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textColor="@color/black"
+              android:layout_centerInParent="true"
+              android:id="@+id/ringing"
+              android:textSize="18sp"
+        android:visibility="gone"
+              android:text="CALLING..."
+    />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        app:fabCustomSize="48dp"
+        app:backgroundTint="@color/transparent"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_videoswitch_on_24dp_switch"
+        android:id="@+id/switch_btn"/>
+</RelativeLayout>
+

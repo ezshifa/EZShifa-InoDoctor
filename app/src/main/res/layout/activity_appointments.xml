@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.AppointmentsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/appointments_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/appointments_back_btn"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_arrow_back_white_24dp" />
+
+            <TextView
+                android:id="@+id/appointment_activity_title"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="My Appointments"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calender_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/appointments_toolbar"
+        app:mcv_showOtherDates="all"
+        app:mcv_tileHeight="match_parent"
+        app:mcv_tileWidth="match_parent" />
+
+    <View
+        android:id="@+id/div2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/calender_view"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/app_light_grey" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/appt_type_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/div2"
+        android:background="@android:color/white"
+        android:fillViewport="true"
+        app:tabBackground="@android:color/white"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@android:color/transparent"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabRippleColor="@null"
+        app:tabSelectedTextColor="@color/colorPrimary"
+        app:tabTextAppearance="@style/TabCustomAppearance"
+        app:tabTextColor="#000">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/appt_type_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appt_type_tab_layout">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <ProgressBar
+        android:id="@+id/booking_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appt_type_tab_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

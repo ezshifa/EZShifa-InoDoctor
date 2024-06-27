@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.ehealthai.doctor"
+    android:versionCode="20"
+    android:versionName="2.8.2" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- The Agora SDK requires Bluetooth permissions in case users are using Bluetooth devices. -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="com.example.ehealthai.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:configChanges="orientation"
+        android:icon="@drawable/smallappicon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.app.ehealthai.doctor.ui.activities.PatientDetails.PatientAppointment"
+            android:label="@string/title_activity_patient_appointment"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.app.ehealthai.doctor.com.vansuita.pickimage.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/picker_provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.PatientDocumentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.profile.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.profile.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <!--
+         <service
+                android:name=".services.NotificationService"
+                android:exported="false"/>
+        -->
+        <service
+            android:name="com.app.ehealthaidoctor.network.firebase.FirebaseIdService"
+            android:permission="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d92e18922c5613091358778ee27731ca75eb9797" />
+
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.Chat.VideoCallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.AppointmentDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.BillingSummary"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.ehealthai.doctor.ui.activities.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.app.ehealthaidoctor.ui.activities.AppointmentDetailsActivityNew" />
+        <activity
+            android:name="com.app.ehealthai.doctor.ui.activities.AppNotificationsActivity"
+            android:label="Notifications History"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.app.ehealthai.doctor.ui.activities.DisplayNotificationDialog"
+            android:label="Alert !"
+            android:theme="@style/Theme.AppCompat.Dialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.app.ehealthai.doctor.ui.activities.VitalsHistory" />
+        <activity android:name="com.app.ehealthai.doctor.ui.activities.MyRatings" />
+        <activity android:name="com.app.ehealthai.doctor.ui.activities.VitalsConfirmation" />
+        <activity android:name="com.app.ehealthaidoctor.ui.activities.AppointmentsActivity" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.RegisterNewPatient"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.app.ehealthaidoctor.ui.activities.Chat.AddNewChatActivity" />
+        <activity android:name="com.app.ehealthaidoctor.ui.activities.Chat.ChatActivity" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.Chat.VideoSessionChat"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity android:name="com.app.ehealthaidoctor.ui.activities.Chat.UserChatsActivity" />
+        <activity android:name="com.app.ehealthai.doctor.ui.activities.CpVerification" />
+        <activity android:name="com.app.ehealthai.doctor.ui.activities.ResetPassword" />
+        <activity
+            android:name="com.app.ehealthai.doctor.ui.activities.VideoSessionVitalsHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.app.ehealthai.doctor.ui.activities.VideoSessionMedicineHistory"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleDialog" />
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.splashScreen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.ehealthaidoctor.ui.activities.VideoSessionActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <data
+                    android:host="ezshifa.com"
+                    android:scheme="https" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.app.ehealthai.doctor.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.app.ehealthai.doctor.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.app.ehealthai.doctor.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.app.ehealthai.doctor.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

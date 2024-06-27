@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/appointment_details_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                app:contentInsetEnd="0dp"
+                app:contentInsetLeft="0dp"
+                app:contentInsetRight="0dp"
+                app:contentInsetStart="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/pd_home_btn"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="8dp"
+                        android:scaleType="center"
+                        android:src="@drawable/ic_arrow_back_white_24dp"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/pd_home"
+                        android:layout_width="28dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="8dp"
+                        android:src="@drawable/ic_home_white" />
+
+                    <TextView
+                        android:id="@+id/appointment_activity_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="Patient Details"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+            <RelativeLayout
+                android:id="@+id/two_line_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F7F7F7"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingStart="?listPreferredItemPaddingLeft"
+                android:paddingEnd="?listPreferredItemPaddingRight">
+
+                <ImageView
+                    android:id="@+id/pd_primary_action"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/pdavatar" />
+                <!-- <ImageView
+                     android:id="@+id/start_call_btn"
+                     android:layout_width="wrap_content"
+                     android:layout_height="35dp"
+                 android:layout_marginTop="3dp"
+              android:scaleType="fitStart"
+                 android:layout_marginStart="5dp"
+                     android:layout_below="@+id/primary_action"
+                     android:src="@drawable/newcall" />-->
+
+
+                <LinearLayout
+                    android:id="@+id/lines_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toEndOf="@+id/pd_primary_action"
+                    android:orientation="horizontal"
+
+                    android:paddingTop="12dp">
+
+                    <TextView
+                        android:id="@+id/first_text_view"
+                        style="@style/TextAppearance.AppCompat.Body2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+
+                        android:text="Patient Name :"
+                        tools:text="Patient Name :" />
+
+                    <TextView
+                        android:id="@+id/paname"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:singleLine="true"
+                        tools:text="Muhammad Sabeeh khalid" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lines_container2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_below="@+id/lines_container"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toEndOf="@+id/pd_primary_action"
+                    android:orientation="horizontal"
+                    android:paddingTop="2dp">
+
+                    <TextView
+                        android:id="@+id/first_text_view2"
+                        style="@style/TextAppearance.AppCompat.Body2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+
+                        android:text="Gender :"
+                        tools:text="Gender :" />
+
+                    <TextView
+                        android:id="@+id/second_text_view2"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:singleLine="true"
+                        android:text="Not Available"
+                        tools:text="Muhammad Sabeeh khalid" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lines_container3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_below="@+id/lines_container2"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_toEndOf="@+id/pd_primary_action"
+                    android:orientation="horizontal"
+                    android:paddingTop="2dp">
+
+                    <TextView
+                        android:id="@+id/first_text_view3"
+                        style="@style/TextAppearance.AppCompat.Body2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="Age :"
+                        tools:text="Age :" />
+
+                    <TextView
+                        android:id="@+id/second_text_view3"
+                        style="@style/TextAppearance.AppCompat.Body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:singleLine="true"
+                        android:text="Not Available"
+                        tools:text="28" />
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/start_call_btn"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/pd_primary_action"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/joincallnew" />
+
+                <LinearLayout
+                    android:id="@+id/llViewReport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pd_primary_action"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/btn_view_report"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ic_reports" />
+
+                    <TextView
+                        android:id="@+id/tvViewReport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View Report" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvCheckKioskAccessories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/check_kiosk_accessories"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spKioskAccessories"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="6dp"
+                android:background="@drawable/spinner_background"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/pttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="6dp"
+                android:text="Patient Symptoms" />
+
+            <TextView
+                android:id="@+id/description_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/white"
+                android:enabled="false"
+                android:paddingStart="10dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView2">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fillViewport="true"
+            app:tabBackground="@android:color/transparent"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@android:color/transparent"
+            app:tabMaxWidth="0dp"
+            app:tabMode="fixed"
+            app:tabRippleColor="@null"
+            android:layout_marginBottom="2dp"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextAppearance="@style/TabCustomAppearance"
+            app:tabTextColor="#000" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

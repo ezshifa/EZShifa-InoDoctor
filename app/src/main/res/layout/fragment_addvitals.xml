@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/vitals_details_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/pd_home_btn"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_arrow_back_white_24dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/av_home"
+                android:layout_width="28dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_home_white" />
+
+            <TextView
+                android:id="@+id/appointment_activity_title"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="Vitals"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vitals_details_toolbar">
+
+        <RelativeLayout
+            android:id="@+id/details_layout"
+            android:layout_width="match_parent"
+            android:background="@color/app_very_light_grey"
+            android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/vitals_layout"
+        android:layout_width="match_parent"
+        android:background="#F7F7F7"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="60dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/appointment_no_old">
+        <LinearLayout
+            android:id="@+id/height_layout"
+            android:layout_width="match_parent"
+            android:background="@drawable/vitalentrybg"
+            android:layout_height="60dp"
+            android:paddingStart="0dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:layout_weight="1"
+                android:src="@drawable/heighticon" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000000"
+                android:layout_marginLeft="-5dp"
+                android:textSize="13dp"
+                android:text="Height"/>
+
+            <EditText
+                android:id="@+id/heightf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:inputType="number"
+                android:visibility="gone"
+                android:maxLength="3"
+                android:nextFocusDown="@+id/heightit"
+                android:textColor="#000000" />
+            <TextView
+                android:id="@+id/heightftt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:textColor="#AA5C99"
+                android:text="ft "/>
+            <EditText
+                android:id="@+id/heightit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:maxLength="3"
+                android:ems="2"
+                android:hint="165"
+                android:layout_weight="1"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:textColor="#AA5C99"
+                android:text="."/>
+
+            <EditText
+                android:id="@+id/heightaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="2"
+                android:text="0"
+                android:inputType="number"
+                android:textColor="#000000" />
+            <LinearLayout
+                android:id="@+id/spntemd_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                >
+                <Spinner
+                    android:id="@+id/heightsp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+
+                    android:layout_marginTop="1dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textStyle="bold"
+
+                    android:entries="@array/heightdrop"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/weight_layout"
+            android:layout_width="match_parent"
+            android:background="@drawable/vitalentrybg"
+            android:layout_height="60dp"
+            android:paddingStart="0dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:layout_weight="1"
+                android:src="@drawable/weighticon" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:layout_marginLeft="-5dp"
+                android:text="Weight"/>
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="2"
+                android:hint="70"
+                android:maxLength="3"
+                android:nextFocusDown="@+id/temparature"
+                android:inputType="number"
+                android:textColor="#000000"
+                />
+            <LinearLayout
+                android:id="@+id/spntemj_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                >
+                <Spinner
+                    android:id="@+id/weightsp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:layout_marginTop="1dp"
+
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:entries="@array/weightdrop"/>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/temparature_layout"
+                android:layout_width="match_parent"
+                android:background="@drawable/vitalentrybg"
+                android:layout_height="60dp"
+
+                android:paddingBottom="10dp"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/temperatureicon" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="-5dp"
+                    android:text="Temperature"/>
+
+                <EditText
+                    android:id="@+id/temparature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:ems="2"
+                    android:hint="98"
+                    android:layout_weight="1"
+                    android:maxLength="3"
+                    android:nextFocusDown="@+id/bp1"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000000"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    android:textColor="#AA5C99"
+                    android:text="."/>
+
+                <EditText
+                    android:id="@+id/temparatureaad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="2"
+                    android:visibility="gone"
+                    android:text="0"
+                    android:nextFocusDown="@+id/bp1"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+
+                <LinearLayout
+                    android:id="@+id/spntem_layout"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    >
+                    <Spinner
+                        android:id="@+id/tempsp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+
+                        android:backgroundTint="@color/colorPrimary"    android:textStyle="bold"
+                        android:entries="@array/tempdrop"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/tempinfo"
+                android:src="@drawable/infoicon"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/bp_layout"
+                android:layout_width="match_parent"
+                android:background="@drawable/vitalentrybg"
+                android:layout_height="60dp"
+                android:paddingStart="6dp"
+                android:paddingBottom="10dp"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/bpicon" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="-5dp"
+                    android:text="Blood Pressure"/>
+
+                <EditText
+                    android:id="@+id/bp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:maxLength="3"
+                    android:ems="2"
+                    android:hint="120"
+                    android:nextFocusDown="@+id/bp2"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+
+                    android:textColor="#000000"
+                    android:text=" / "/>
+
+                <EditText
+                    android:id="@+id/bp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="3"
+                    android:hint="70"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textSize="12dp"
+                    android:layout_weight="1"
+                    android:textColor="#000000"
+                    android:text="mmHG"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/bpinfo"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/infoicon"/>
+        </RelativeLayout>
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/sugar_layout"
+                android:layout_width="match_parent"
+                android:background="@drawable/vitalentrybg"
+                android:layout_height="60dp"
+                android:paddingStart="6dp"
+                android:paddingBottom="10dp"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/sugaricon" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="13dp"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="-5dp"
+                    android:text="Sugar Level"/>
+
+                <EditText
+                    android:id="@+id/sugar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#000000"
+                    android:nextFocusDown="@+id/temparature"
+                    android:ems="2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:maxLength="3"
+                    android:inputType="number"
+                    android:textColorHint="#000000" />
+                <LinearLayout
+                    android:id="@+id/spnunit_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <Spinner
+                        android:id="@+id/sugarsp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="2dp"
+                        android:backgroundTint="@color/colorPrimary"
+
+                        android:textStyle="bold"
+                        android:entries="@array/sugardrop"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:textSize="12dp"
+                        android:textColor="#000000"
+                        android:text="mg/dl"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/slinfo"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/infoicon"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/more_layout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:paddingBottom="5dp"
+
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/viewmore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#BD75B1"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:text="Hide More Vitals"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/dropdown_icon"
+                android:id="@+id/arrowupdown"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/breathingsh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            >
+            <LinearLayout
+                android:id="@+id/breathing_layout"
+                android:layout_width="match_parent"
+                android:background="@drawable/vitalentrybg"
+                android:layout_height="60dp"
+                android:paddingStart="0dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/breathicon" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="-5dp"
+                    android:textSize="13dp"
+                    android:text="Breathing "/>
+
+                <EditText
+                    android:id="@+id/fromb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:maxLength="3"
+                    android:ems="2"
+
+                    android:nextFocusDown="@+id/fromo"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textSize="12dp"
+                    android:visibility="gone"
+                    android:textColor="#000000"
+                    android:text="to"/>
+
+                <EditText
+                    android:id="@+id/tob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="3"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@+id/fromo"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:text="BPM"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/brinfo"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/infoicon"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/oxsh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/oxygen_layout"
+                android:layout_width="match_parent"
+                android:background="@drawable/vitalentrybg"
+                android:layout_height="60dp"
+                android:paddingStart="0dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/oxygenicon" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="-5dp"
+                    android:textSize="13dp"
+                    android:text="Oxygen "/>
+
+                <EditText
+                    android:id="@+id/fromo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:maxLength="2"
+                    android:ems="2"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@+id/fromp"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textSize="12dp"
+                    android:visibility="gone"
+                    android:textColor="#000000"
+                    android:text="%p"/>
+
+                <EditText
+                    android:id="@+id/too"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="2"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@+id/fromp"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:text="SPO2"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/oxinfo"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/infoicon"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/prsh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:id="@+id/pulse_layout"
+                android:layout_width="match_parent"
+                android:background="@drawable/vitalentrybg"
+                android:layout_height="60dp"
+                android:paddingStart="0dp"
+                android:paddingBottom="5dp"
+                android:weightSum="100"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/heartrateicon" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="13dp"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:text="Pulse Rate"/>
+
+                <EditText
+                    android:id="@+id/fromp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:maxLength="3"
+                    android:ems="2"
+                    android:nextFocusDown="@+id/top"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textSize="12dp"
+                    android:visibility="gone"
+                    android:textColor="#000000"
+                    android:text="to"/>
+
+                <EditText
+                    android:id="@+id/top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="3"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    android:nextFocusDown="@+id/fromb"
+                    android:inputType="number"
+                    android:textColor="#000000" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:textSize="12dp"
+                    android:textColor="#000000"
+                    android:text="BPM"/>
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/prinfo"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/infoicon"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/bmi_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bmivalue"
+                android:text="BMI:"
+                android:maxLength="17"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="5dp"
+                android:layout_below="@+id/vitals_layout"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bmirs"
+                android:text=""
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_below="@+id/vitals_layout"
+                android:textColor="#CD1716"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vitalsnote"
+            android:text="Note: All vitals are Optional, please fill as many as you can."
+
+            android:textAllCaps="false"
+            android:layout_weight="1"
+
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp"
+
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="5dp"
+            android:layout_below="@+id/bmi_layout"
+            android:textColor="#000000"
+            />
+        <LinearLayout
+            android:id="@+id/weightt_layout"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addvitalsbtn"
+                android:text="Submit Vitals"
+                android:textAllCaps="false"
+                android:layout_weight="1"
+                android:layout_marginTop="6dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="5dp"
+                android:background="#CD1716"
+                android:layout_below="@+id/bmi_layout"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/vitalhistorybtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bmi_layout"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="30dp"
+                android:layout_weight="1"
+                android:background="#A2238C"
+                android:paddingLeft="5dp"
+                android:paddingTop="15dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="15dp"
+                android:text="Vital History"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_marginTop="12dp"
+              android:background="@color/app_very_light_grey"
+              android:layout_height="wrap_content">
+    <LinearLayout
+            android:id="@+id/date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical"
+
+            android:orientation="horizontal">
+        <View android:layout_width="0dp" android:layout_height="1dp"
+              android:background="@color/grey_light"
+              android:layout_marginEnd="8dp"
+              android:layout_weight="1"
+        />
+        <TextView
+                android:id="@+id/date_text"
+                android:layout_width="wrap_content"
+                android:text="12 March 2019"
+                android:layout_height="wrap_content"/>
+        <View android:layout_width="0dp" android:layout_height="1dp"
+              android:background="@color/grey_light"
+              android:layout_marginStart="8dp"
+              android:layout_weight="1"
+        />
+    </LinearLayout>
+    <TextView
+            android:id="@+id/chat_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon 5:18 pm"
+            android:textSize="12sp"
+            android:layout_marginStart="10dp"/>
+    <TextView
+            android:id="@+id/chat_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello how are you "
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="92dp"
+            android:background="@drawable/chat_right"
+            android:layout_marginBottom="8dp"/>
+</LinearLayout>

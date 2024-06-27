@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activities.Chat.AddNewChatActivity">
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/add_chat_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView
+                    android:id="@+id/add_chat_back_btn"
+                    android:src="@drawable/back_button"
+                    android:layout_marginStart="8dp"
+                    android:layout_width="32dp"
+                    android:scaleType="center"
+                    android:layout_height="match_parent"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Add Chat"
+                      android:textSize="18sp"
+                      android:layout_centerInParent="true"
+                      android:textColor="@color/white"
+                      android:layout_marginStart="32dp"/>
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+            android:id="@+id/instruction_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap a profile to start chat"
+            android:layout_below="@+id/add_chat_toolbar"
+            android:background="@color/app_very_light_grey"
+            android:padding="16dp"
+            android:gravity="center_horizontal"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/add_chat_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/instruction_text">
+    </androidx.recyclerview.widget.RecyclerView>
+    <ProgressBar
+            android:id="@+id/new_chat_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

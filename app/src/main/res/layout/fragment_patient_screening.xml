@@ -1,0 +1,849 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.ehealthai.doctor.ui.activities.PatientDetails.ui.home.PatientScreeningFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/llScreeningValuesPatientDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/screening_values"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Screening Values"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="4dp"
+                                android:background="@drawable/border_grey_2">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/ivLeftEar"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:layout_marginTop="8dp"
+                                        android:contentDescription="@string/ear"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/ear" />
+
+                                    <TextView
+                                        android:id="@+id/tvLeftEarValue"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="4dp"
+                                        android:layout_marginTop="4dp"
+                                        android:layout_marginEnd="4dp"
+                                        android:text="Value"
+                                        android:textColor="@color/colorPrimary"
+                                        app:layout_constraintBottom_toBottomOf="@+id/ivLeftEar"
+                                        app:layout_constraintEnd_toStartOf="@+id/tvLeftEar"
+                                        app:layout_constraintStart_toEndOf="@+id/ivLeftEar"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/tvLeftEar"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:text="Left Ear"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <HorizontalScrollView
+                                        android:id="@+id/hsvLeftEar"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="10dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/ivLeftEar">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:id="@+id/tvLe250"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="250Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvLe500"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="500Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvLe1000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="1000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvLe2000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="2000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvLe3000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="3000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvLe4000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="4000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvLe6000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="6000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvLe8000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="8000Hz"
+                                                android:textAlignment="center" />
+                                        </LinearLayout>
+
+                                    </HorizontalScrollView>
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="4dp"
+                                android:background="@drawable/border_grey_2">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/ivRightEar"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:layout_marginTop="8dp"
+                                        android:contentDescription="@string/ear"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/ear" />
+
+                                    <TextView
+                                        android:id="@+id/tvRightEarValue"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="4dp"
+                                        android:layout_marginTop="4dp"
+                                        android:layout_marginEnd="4dp"
+                                        android:text="Value"
+                                        android:textColor="@color/colorPrimary"
+                                        app:layout_constraintBottom_toBottomOf="@+id/ivRightEar"
+                                        app:layout_constraintEnd_toStartOf="@+id/tvRightEar"
+                                        app:layout_constraintStart_toEndOf="@+id/ivRightEar"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/tvRightEar"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:text="Right Ear"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <HorizontalScrollView
+                                        android:id="@+id/hsvRightEar"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="10dp"
+
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/ivRightEar">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:id="@+id/tvRe250"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="250Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvRe500"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="500Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvRe1000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="1000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvRe2000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="2000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvRe3000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="3000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvRe4000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="4000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvRe6000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="6000Hz"
+                                                android:textAlignment="center" />
+
+                                            <TextView
+                                                android:id="@+id/tvRe8000"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginStart="2dp"
+                                                android:layout_marginEnd="2dp"
+                                                android:background="@drawable/border_grey_hearing"
+                                                android:gravity="center"
+                                                android:minWidth="60dp"
+                                                android:minHeight="30dp"
+                                                android:padding="4dp"
+                                                android:text="8000Hz"
+                                                android:textAlignment="center" />
+                                        </LinearLayout>
+
+                                    </HorizontalScrollView>
+
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="2">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="4dp"
+                                android:layout_marginBottom="8dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/border_grey_2">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/ivLeftEye"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:contentDescription="@string/eye"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/eye" />
+
+                                    <TextView
+                                        android:id="@+id/tvLeftEyeValue"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="4dp"
+                                        android:layout_marginEnd="4dp"
+                                        android:text="Value"
+                                        android:textColor="@color/colorPrimary"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toStartOf="@+id/tvLeftEye"
+                                        app:layout_constraintStart_toEndOf="@+id/ivLeftEye"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/tvLeftEye"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:text="Left Eye"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginBottom="8dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/border_grey_2">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/ivRightEye"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="6dp"
+                                        android:contentDescription="@string/eye"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        app:srcCompat="@drawable/eye" />
+
+                                    <TextView
+                                        android:id="@+id/tvRightEyeValue"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="4dp"
+                                        android:layout_marginEnd="4dp"
+                                        android:text="Value"
+                                        android:textColor="@color/colorPrimary"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toStartOf="@+id/tvRightEye"
+                                        app:layout_constraintStart_toEndOf="@+id/ivRightEye"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <TextView
+                                        android:id="@+id/tvRightEye"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="8dp"
+                                        android:layout_marginEnd="8dp"
+                                        android:text="Right Eye"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/border_grey_2">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivColorBlindness"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="6dp"
+                                    android:contentDescription="@string/eye"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/color_blindess" />
+
+                                <TextView
+                                    android:id="@+id/tvColorBlindnessValue"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:layout_marginEnd="4dp"
+                                    android:text="Value"
+                                    android:textColor="@color/colorPrimary"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toStartOf="@+id/tvColorBlindness"
+                                    app:layout_constraintStart_toEndOf="@+id/ivColorBlindness"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/tvColorBlindness"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:text="Color Blindness"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/screening_results"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Screening Results"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/border_grey_2">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivEarResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="6dp"
+                                    android:contentDescription="@string/ear"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/ear" />
+
+                                <TextView
+                                    android:id="@+id/tvEarResultValue"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:layout_marginEnd="4dp"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toStartOf="@+id/tvEarResult"
+                                    app:layout_constraintStart_toEndOf="@+id/ivEarResult"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/tvEarResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:text="Hearing Result "
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/border_grey_2">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivEyeResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="6dp"
+                                    android:contentDescription="@string/eye"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/eye" />
+
+                                <TextView
+                                    android:id="@+id/tvEyeResultValue"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:layout_marginEnd="4dp"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toStartOf="@+id/tvEyeResult"
+                                    app:layout_constraintStart_toEndOf="@+id/ivEyeResult"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/tvEyeResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:text="Eye Result "
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginEnd="8dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardUseCompatPadding="true">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/border_grey_2">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/ivColorVisionResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="6dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/color_blindess" />
+
+                                <TextView
+                                    android:id="@+id/tvColorVisionResultValue"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="4dp"
+                                    android:layout_marginEnd="4dp"
+                                    android:text=""
+                                    android:textColor="@color/colorPrimary"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toStartOf="@+id/tvColorVisionResult"
+                                    app:layout_constraintStart_toEndOf="@+id/ivColorVisionResult"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/tvColorVisionResult"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="8dp"
+                                    android:layout_marginEnd="8dp"
+                                    android:text="Color Vision Result "
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </ScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ProgressBar
+        android:id="@+id/pbScreeningPatientDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvScreeningNotAvailablePatientDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="No Screening data found"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

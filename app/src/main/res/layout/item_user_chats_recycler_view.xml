@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:id="@+id/chatLayout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chatImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="16dp"/>
+    <TextView
+            android:id="@+id/chatName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Kuku"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="28dp"
+            android:layout_toEndOf="@+id/chatImage"
+            android:layout_toStartOf="@+id/newMessageImage"
+            android:layout_marginEnd="16dp"/>
+
+    <TextView
+        android:id="@+id/lastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chatName"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@+id/newMessageImage"
+        android:layout_toEndOf="@+id/chatImage"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Hello How are You"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/chat_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02:00"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_toEndOf="@+id/chatImage"
+            android:layout_toStartOf="@+id/newMessageImage"
+            android:layout_below="@+id/lastMessage"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/newMessageImage"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@color/colorPrimary"
+            android:layout_marginEnd="32dp"/>
+    <View
+            android:id="@+id/div1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_light"
+            android:layout_below="@+id/chatImage"/>
+
+</RelativeLayout>

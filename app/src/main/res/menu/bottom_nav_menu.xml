@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/patientdetailsicon"
+        android:iconTint="@color/grey"
+        android:title="@string/title_pt" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/addnotesicon"
+        android:iconTint="@color/grey"
+        android:title="@string/title_an" />
+
+    <!--    <item-->
+    <!--        android:id="@+id/navigation_notifications"-->
+    <!--        android:icon="@drawable/vitalsicon"-->
+    <!--        android:iconTint="@color/grey"-->
+    <!--        android:title="@string/title_vitals" />-->
+
+    <item
+        android:id="@+id/navigation_patient_reports"
+        android:icon="@drawable/patient_reports"
+        android:iconTint="@color/grey"
+        android:title="@string/patient_reports" />
+    <item
+        android:id="@+id/navigation_patient_obstaclesData"
+        android:icon="@drawable/opsimg"
+        android:iconTint="@color/grey"
+        android:title="@string/title_obs_data" />
+
+</menu>

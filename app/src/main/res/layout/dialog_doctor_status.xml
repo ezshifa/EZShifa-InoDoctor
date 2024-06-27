@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="4dp"
+                android:textColor="@color/black"
+                android:text="@string/please_select_reason_of_logging_out" />
+
+            <ImageView
+                android:id="@+id/ivClose"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:contentDescription="@string/close_confirm_dialog_title"
+                android:src="@drawable/red_close" />
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/rgBreaks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <!--on below line we are creating a radio buttons-->
+            <RadioButton
+                android:id="@+id/rbMealBreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:padding="4dp"
+                android:text="Meal Break"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rbNamazBreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="Namaz break"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+
+            <RadioButton
+                android:id="@+id/rbMeetingBreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="Meeting break"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rbShiftEnds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="Shift Ends"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rbSmokingBreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="Smoking Break"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rbTeaBreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="Tea Break"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <RadioButton
+                android:id="@+id/rbWashRestBreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="Washroom break - Restroom break"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="@string/confirm"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--on below line we are creating a radio group-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

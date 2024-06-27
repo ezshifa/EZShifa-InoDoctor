@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:id="@+id/coordinatorLayout">
+    <!--  //toolbar layout-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/video_call_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/switch_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/switchcam"
+            app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/signalstregnth"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/switch_btn"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/statusc_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="EZSHIFA"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/duration"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/statusc_text">
+
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/signalstregnth"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/goodsignal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout10"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--
+        //patient screeen-->
+    <FrameLayout
+        android:id="@+id/friend_frame_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/video_call_toolbar"
+        android:background="@drawable/videosessionidleimg"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_call_toolbar"
+        tools:context=".MainActivity">
+
+    </FrameLayout>
+
+    <!--    //doctor screen-->
+
+    <FrameLayout
+        android:id="@+id/my_frame_layout"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:context=".MainActivity"></FrameLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/footerzoom2"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/muteBtn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:focusedByDefault="true"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/mic"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/video_btn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/video_btn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/videoon"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/muteBtn"
+            app:layout_constraintEnd_toStartOf="@+id/more"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/muteBtn"
+            app:layout_constraintTop_toTopOf="@+id/muteBtn" />
+
+        <ImageView
+            android:id="@+id/addnotes"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/notes"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp"
+            app:layout_constraintEnd_toStartOf="@+id/moreic"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/more"
+            app:layout_constraintTop_toTopOf="@+id/muteBtn">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/more"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/vschaticon"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/muteBtn"
+            app:layout_constraintEnd_toStartOf="@+id/addnotes"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/video_btn"
+            app:layout_constraintTop_toTopOf="@+id/muteBtn"></ImageView>
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/more"
+            android:background="@drawable/rectangle_rounded"
+            android:padding="2dp"
+            android:text=""
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@+id/more"
+            app:layout_constraintTop_toTopOf="@+id/more"
+            app:maxImageSize="16dp" />
+
+        <ImageView
+            android:id="@+id/moreic"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:onClick="onDefaultClick"
+            android:src="@drawable/moredots"
+            android:textColor="#8B7b8A"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="@+id/muteBtn"
+            app:layout_constraintEnd_toStartOf="@+id/endCallBtn"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/addnotes"
+            app:layout_constraintTop_toTopOf="@+id/muteBtn"></ImageView>
+
+        <ImageView
+            android:id="@+id/endCallBtn"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="2dp"
+
+            android:layout_marginEnd="4dp"
+            android:src="@drawable/endbtn"
+            app:layout_constraintBottom_toBottomOf="@+id/muteBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/moreic"
+            app:layout_constraintTop_toTopOf="@+id/muteBtn">
+
+        </ImageView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

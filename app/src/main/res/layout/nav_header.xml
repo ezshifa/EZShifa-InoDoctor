@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin_default"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_avatar"
+            android:layout_width="@dimen/header_img_size"
+            android:layout_height="@dimen/header_img_size"
+            android:src="@drawable/doctor_icon" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:gravity="start|end"
+            android:paddingTop="@dimen/layout_padding_default"
+            android:text="Ali Ahmed"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_font_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

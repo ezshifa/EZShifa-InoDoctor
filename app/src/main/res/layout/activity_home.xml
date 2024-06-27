@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/activity_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_very_light_grey">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/home_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/menu_btn"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_menu_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/notif_btn"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="center"
+                    android:src="@drawable/notificonnew" />
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-34dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_toEndOf="@+id/notif_btn"
+                    android:background="@drawable/rectangle_rounded"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="2dp"
+                    android:text="12"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:fabCustomSize="28dp"
+                    app:maxImageSize="16dp" />
+
+                <ImageView
+                    android:id="@+id/onofftoggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/notif_btn"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:drawablePadding="5dp"
+                    android:src="@drawable/iamoffline"
+                    android:text="Go Online"
+                    android:textAllCaps="false" />
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/avatar_card"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp"
+            android:elevation="100dp"
+            app:cardCornerRadius="56dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar1"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/doctor_icon" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:src="@drawable/doctor_icon" />
+        </androidx.cardview.widget.CardView>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/change_image_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-24dp"
+            android:layout_marginTop="112dp"
+            android:layout_toEndOf="@+id/avatar_card"
+            android:src="@drawable/ic_photo_camera_white_24dp"
+            android:visibility="gone"
+            app:backgroundTint="@color/pink_dark_calendar"
+            app:fabCustomSize="28dp"
+            app:maxImageSize="16dp" />
+
+        <Button
+            android:id="@+id/oof_image_btn"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="-24dp"
+            android:layout_marginTop="155dp"
+            android:layout_toEndOf="@+id/avatar_card"
+            android:background="@drawable/offlineico"
+            app:fabCustomSize="28dp"
+            app:maxImageSize="16dp" />
+        <!--<RelativeLayout android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/circular_button_red"-->
+        <!--android:layout_toEndOf="@+id/avatar_card"-->
+        <!--android:layout_marginTop="122dp"-->
+        <!--android:layout_marginStart="-24dp"-->
+        <!--android:elevation="2dp"-->
+
+
+        <!--&gt;-->
+        <!--<ImageButton android:layout_width="15dp"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:id="@+id/change_image_btn"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:src="@drawable/ic_photo_camera_white_24dp"-->
+
+
+        <!--/>-->
+        <!--</RelativeLayout>-->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/avatar_card">
+
+            <RelativeLayout
+                android:id="@+id/doctor_profile_card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="16dp"
+                android:background="#f4f4f4"
+                android:elevation="1dp">
+
+                <RelativeLayout
+                    android:id="@+id/usernamebox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="25dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+
+                        <TextView
+                            android:id="@+id/username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/welcome"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Dr. Ali Ahmed"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true" />
+
+                        <TextView
+                            android:id="@+id/welcome"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginEnd="5dp"
+                            android:text="Welcome"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/layout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/usernamebox"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="64dp"
+                    android:layout_marginEnd="32dp"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:id="@+id/myAppointmentsContainer"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/appointment_icon" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Appointments"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/messagesContainer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/chat_icon" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Messages"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/belowbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout_1"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:id="@+id/telemedicine"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/profile_icon" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="My Profile"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/myrating"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/rating_icon" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="My Rating"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/contact_us_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/belowbar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="50dp"
+                    android:text="Contact us"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/version_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/contact_us_btn"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="EzShifa Doctor v2.9.4"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+    <!-- Side navigation drawer UI -->
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/nav_header"
+                layout="@layout/nav_header" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/navigation_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/white" />
+        </LinearLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+    <!--<ExpandableListView
+            android:id="@+id/navList"
+            android:layout_width="@dimen/nav_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|start"
+            android:background="@color/white"
+            android:divider="@color/group_divider_color"
+            android:dividerHeight="@dimen/divider_height"
+            android:groupIndicator="@android:color/transparent"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft">
+
+    </ExpandableListView>-->
+
+</androidx.drawerlayout.widget.DrawerLayout>

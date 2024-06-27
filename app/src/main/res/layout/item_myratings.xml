@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/vitalsh_layout"
+        android:background="@drawable/vhisitem"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="18dp"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+
+            android:text="Rating"/>
+        <TextView
+            android:id="@+id/rtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/rating"
+          android:layout_marginStart="15dp"
+
+            android:text="Name"/>
+
+        <TextView
+            android:id="@+id/rcomments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rtitle"
+            android:layout_alignLeft="@+id/rtitle"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="15dp"
+            android:text="Comments"
+            android:textSize="16sp"
+            />
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_mhr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<!-- custom_tab_indicator.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/colorPrimary" /> <!-- Set the desired color of the tab indicator -->
+    <size
+        android:width="2dp"
+        android:height="1dp" /> <!-- Set the desired width and height of the tab indicator -->
+</shape>

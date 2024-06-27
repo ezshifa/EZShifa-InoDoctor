@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/weightt_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:baselineAligned="false">
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/tempicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/temperatureicon"
+                android:src="@drawable/temperatureicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tempicon"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/temperature"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvTemperatureVitalHistoryForSinglePatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:maxWidth="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_bp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/bpicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/blood_pressure"
+                android:src="@drawable/bpicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bpicon"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/blood_pressure"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvBloodPressureVitalHistoryForSinglePatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:maxWidth="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weightt_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weightt_layout"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_pulse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/pulseicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/pulse_rate"
+                android:src="@drawable/heartrateicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pulseicon"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/pulse_rate"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvPulseVitalHistoryForSinglePatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:maxWidth="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_breathing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/breathicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/breathing_rate"
+                android:src="@drawable/breathicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/breathicon"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/breathing_rate"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvBreathVitalHistoryForSinglePatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:maxWidth="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weightt_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weightt_layout2"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_ocygen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/oxygenicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/oxygen"
+                android:src="@drawable/oxygenicon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oxygenicon"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/oxygen"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvOxygenVitalHistoryForSinglePatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:maxWidth="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_sugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/sugaricon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/sugar_level"
+                android:src="@drawable/sugaricon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sugaricon"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/sugar_level"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvSugarVitalHistoryForSinglePatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:maxWidth="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weightt_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weightt_layout3"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/heighticon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/height"
+                android:src="@drawable/heighticon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heighticon"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/height"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvHeightVitalHistoryForSinglePatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:maxWidth="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/vitalsh_layout_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/detbtn">
+
+            <ImageView
+                android:id="@+id/weighticon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/weight"
+                android:src="@drawable/weighticon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weighticon"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/weight"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvWeightVitalHistoryForSinglePatientDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text=""
+                android:maxWidth="50dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pbVitalHistoryForSinglePatientDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp"
+        android:visibility="visible" />
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activities.Chat.UserChatsActivity">
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/user_chats_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/user_chats_back_btn"
+                android:layout_width="32dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_arrow_back_white_24dp" />
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="My Chats"
+                      android:textSize="18sp"
+                      android:layout_centerInParent="true"
+                      android:textColor="@color/white"
+                      android:layout_marginStart="32dp"/>
+            <LinearLayout
+                    android:id="@+id/add_chat_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_height="wrap_content">
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Add "
+                          android:textSize="18sp"
+                          android:textColor="@color/white"/>
+                <ImageView
+
+                        android:src="@drawable/ic_add_circle_white_24dp"
+                        android:layout_width="wrap_content"
+                        android:scaleType="center"
+                        android:layout_height="match_parent"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userChatsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/user_chats_toolbar">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="No chats available, Add new patients"
+              android:layout_centerInParent="true"
+              android:id="@+id/addchat"
+              android:visibility="invisible"
+    />
+
+
+</RelativeLayout>

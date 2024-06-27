@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "674636536364",
+    "firebase_url": "https://ehealth-patient.firebaseio.com",
+    "project_id": "ehealth-patient",
+    "storage_bucket": "ehealth-patient.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674636536364:android:0effac00a0680f44be4f89",
+        "android_client_info": {
+          "package_name": "com.app.ehealthai.doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674636536364-0cu31f29h3qmac4cf63hcj3umk7k20vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyNmcjkX1_x0kJQpFmSTsiCAIUf-aeWCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674636536364-0cu31f29h3qmac4cf63hcj3umk7k20vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674636536364:android:13527bf0688dcc39be4f89",
+        "android_client_info": {
+          "package_name": "com.app.ehealthai.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674636536364-0cu31f29h3qmac4cf63hcj3umk7k20vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyNmcjkX1_x0kJQpFmSTsiCAIUf-aeWCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674636536364-0cu31f29h3qmac4cf63hcj3umk7k20vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

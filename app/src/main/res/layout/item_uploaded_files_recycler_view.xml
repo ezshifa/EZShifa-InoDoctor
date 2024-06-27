@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:id="@+id/file_layout"
+                android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/file_preview"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_image_black_24dp"/>
+    <LinearLayout
+            android:layout_toEndOf="@+id/file_preview"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:id="@+id/file_name"
+                android:text="Name: abc213.jpg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/date"
+                android:text="Date Uploaded: 25-05-2019"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/type_name"
+                android:text="Type: Lab Tests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

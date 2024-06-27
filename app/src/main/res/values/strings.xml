@@ -1,0 +1,406 @@
+<resources>
+    <string name="app_name">Ino Doctor</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="new_doctor_sign_up">New Doctor? Sign Up</string>
+    <string name="forget_password">Forgot Password?</string>
+    <string name="contact_us">Contact us</string>
+    <string name="your_email">username</string>
+    <string name="email">email</string>
+    <string name="your_password">password</string>
+    <string name="username">Username</string>
+    <string name="remember_me">Remember me</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="email_login">E-mail</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="mobile">Mobile</string>
+    <string name="term">I agrss to eZShifa <u>Terms of Use</u> &amp;
+        <u>informed Consent</u>
+    </string>
+    <string name="create_account">Create Account</string>
+    <string name="create_new_account">Create new Account</string>
+    <string name="gps_message">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="check_internet_connection">Check your internet connection!</string>
+
+
+    <!--     Error messages...                   -->
+    <string name="err_password">At least 6 characters</string>
+    <string name="err_email">Please enter the username correctly</string>
+    <string name="err_name">Please enter correct username</string>
+    <string name="err_url">Please enter correct url Youtube video</string>
+    <string name="err_password_confirmation">password not match</string>
+    <string name="err_phone">please enter valid mobile number</string>
+    <string name="err_date">eg yyyy-mm-dd</string>
+    <string name="err_empty">empty</string>
+    <string name="error_resonse">something erorr</string>
+    <string name="skip">Skip</string>
+    <string name="goto_my_account">Go to My Account</string>
+    <string name="congratulations_description">Your eZShifa account is ready,\nyou can see a doctor Now.</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="register_as">Register As</string>
+    <string name="register">Register</string>
+    <string name="new_passowrd">New Password</string>
+    <string name="new_passowrd_confirmation">New Password Confirmation</string>
+    <string name="sign_in_underline">
+        <u>Sign in</u>
+    </string>
+    <string name="sign_in_description">If you alraedy have an account</string>
+    <string name="password_guide">Your password must be at least 6 characters long.</string>
+
+    <string name="password_strength_weak">Weak</string>
+    <string name="password_strength_medium">Medium</string>
+    <string name="password_strength_strong">Strong</string>
+    <string name="password_strength_very_strong">Very Strong</string>
+    <string name="update">Update</string>
+    <string name="general_error">Something went wrong, please try again later</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_out_message">Are you sure you want to sign out?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="no_doctors_found">No doctors found</string>
+    <string name="ok">Ok</string>
+    <string name="speciality_experience">Speciality Experience:</string>
+    <string name="cirtifications">Certifications:</string>
+    <string name="languages">Languagues:</string>
+    <string name="subspecialities">Subspecialities:</string>
+    <string name="see_doctor">See Doctor</string>
+    <string name="year">Year</string>
+    <string name="years">Years</string>
+    <string name="not_available">Not Available</string>
+    <string name="error_login_failed">Login failed, pleas try again later...</string>
+    <string name="signup_complete_dialog_title">Congratulations</string>
+    <string name="signup_complete_dialog_message">Welcome to eZShifa App, an automated email with activation link is
+        sent to your mail address, please verify your e-mail address in order to proceed
+    </string>
+    <string name="serviceslist"><u>Services</u></string>
+    <string name="account_activation_erro_dialog_title">Account Activation Error</string>
+    <string name="account_activation_error_dialog_body">Please activate your account prior to login</string>
+    <string name="find_a_doctor">Find a Doctor</string>
+    <string name="doctor_profile">Doctor\'s Profile</string>
+    <string name="book_apointment">Book Apointment</string>
+    <string name="selected_appointement_date">Select Date</string>
+    <string name="no_available_apointments">No free apointment slots</string>
+    <string name="available">available</string>
+    <string name="book">book</string>
+    <string name="time_from_to">%1$s TO %2$s</string>
+    <string name="no_appointments_for_this_date">No appointments for this day</string>
+    <string name="request_mic_camera">This app needs access to your camera and mic to make video calls</string>
+    <string name="error">Error</string>
+    <string name="disconnected">Session Disconnected</string>
+    <string name="stream_received">Stream Received</string>
+    <string name="stream_dropped">Stream Dropped</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting...</string>
+
+    <string name="profilepic">https://ezshifa.com/emr/patient_profile_image/</string>
+    <!--<string name="profilepic">https://e-healthai.com/ezshifa/patient_profile_image/</string>-->
+    <string name="permissions_not_granted">Permissions not granted</string>
+    <string name="publisher_on_stream_created">Call started</string>
+    <string name="publisher_on_stream_destroyed">Call stopped by user</string>
+    <string name="publisher_error">Publisher Error</string>
+    <string name="subject">Subject</string>
+    <string name="description">Please, briefly describe the purpose of your visit</string>
+    <string name="error_empty_description">Please enter description</string>
+    <string name="error_empty_subject">Please enter subject</string>
+    <string name="no_appointments_schedules">No appointments scheduled</string>
+    <string name="start_call">Start Call</string>
+    <string name="end_call">End Call</string>
+    <string name="appointment_not_approved_yet">This appointment request not accept yet…</string>
+    <string name="discard_changes_error_title">Warning!</string>
+    <string name="confirm">Confirm</string>
+    <string name="discard_changes_error_message">Your data will not be saved. Please confirm that you wish to discard
+      any information entered already.
+  </string>
+    <string name="cancel">Cancel</string>
+    <string name="select_speciality">Select Speciality</string>
+    <string name="note">Note</string>
+    <string name="continuee">Continue</string>
+    <string name="upload_your_medical_documents">Upoad your medical documents</string>
+    <string name="purpose_of_visit">Purpose of visit</string>
+
+
+    <string name="attachment_skip_message">We recommend that you take a few minutes to attach any medical documents
+      related your condition.\n\n
+      These may include: previous lab results, medical prescriptions, or case reports.\n\n
+      Providing these documents now will help the doctor better understand your condition and optimize your visit
+      time.
+  </string>
+    <string name="attach">Attach</string>
+    <string name="attach_description_message">Attach Any Medical Documents Related to Your Condition:</string>
+    <string name="attach_medical_record">Attach Medical Record</string>
+    <string name="my_health">My Health</string>
+    <string name="document">Document</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="select_date">Select File Date</string>
+    <string name="add_comments">Add Comments</string>
+    <string name="please_select_file_type">Please Select File Type</string>
+    <string name="please_select_file_subtype">Please Select File Subtype</string>
+    <string name="please_select_date">Please Select File Date</string>
+    <string name="type">Type:</string>
+    <string name="date">Date:</string>
+    <string name="uploaded">Uploaded:</string>
+    <string name="name">Name</string>
+
+    <string name="select_a_doctor">Select a Doctor</string>
+    <string name="no_records_found">No Medical Records Found</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="review_appointment_request_text">You have requested an\nappointment with doctor:</string>
+    <string name="review_after_receiving_appointment">After receiving the doctor\\nconfirmation, your appointment\\nwill
+      be at:
+  </string>
+    <string name="pre_appointment_review_text">The doctor will review your\ninformation and send you a\nconfirmation
+      within the next 12\nhours.
+  </string>
+    <string name="review">Review</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="categories">
+        <item>Messages</item>
+        <item>Home</item>
+        <item>My Health</item>
+        <item>My Calendar</item>
+        <item>Find a Doctor</item>
+        <item>Settings</item>
+        <!-- <item>EHealthAi Care</item>-->
+        <item>My Appointments</item>
+        <item>Sign Out</item>
+    </string-array>
+
+    <string-array name="sugardrop">
+        <item>Random</item>
+        <item>Fasting</item>
+    </string-array>
+    <string-array name="tempdrop">
+        <item>°F</item>
+        <item>°C</item>
+    </string-array>
+    <string-array name="heightdrop">
+        <item>cm</item>
+        <item>ft</item>
+    </string-array>
+    <string-array name="weightdrop">
+        <item>Kg</item>
+        <item>Lb</item>
+    </string-array>
+    <string-array name="my_health">
+        <item>Profile</item>
+        <item>Visut History</item>
+        <item>Conditions</item>
+        <item>Medications</item>
+        <item>Labs</item>
+        <item>Images</item>
+    </string-array>
+
+    <string-array name="EHealthAi_care">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+    </string-array>
+
+    <!-- ADDED BY EHTISHAM ALI SHAH-->
+
+
+    <!-- Appointment Details Activity-->
+    <string name="upcoming_appointment_no">Upcoming Appointment #</string>
+    <string name="appointment_details_title">Appointment Details</string>
+    <string name="vitals_history_title">Vitals History</string>
+    <string name="medicine_history_title">Medicine History</string>
+    <string name="my_ratings_title">My Ratings</string>
+    <string name="patient_complaint">Patient Complaint</string>
+    <string name="description_title">Description</string>
+    <string name="doctors_notes_title">Doctor\'s Notes</string>
+    <string name="uploaded_files">Uploaded Files</string>
+    <string name="recorded_file">Recorded file:</string>
+    <string name="no_file_recorded">No file recorded</string>
+    <string name="voice_notes">Voice Notes</string>
+    <string name="save_btn">Save</string>
+    <string name="cancel_btn">Cancel Appointment</string>
+    <string name="uploaded_files_btn">Show Uploaded files</string>
+    <!--<string name="agora_app_id">6be0f5a8693a4d2ebac689c8af59e4d8</string>-->
+    <string name="agora_app_id">1634986669fd433c903f131af715ba6b</string>
+    <string name="msg_token_fmt">Token: %s</string>
+
+    <string name="cancel_confirm_dialog_title">Cancel Appointment</string>
+    <string name="delete_am_dialog_title">Delete Medicine</string>
+    <string name="close_confirm_dialog_title">Close Appointment</string>
+    <string name="cancel_confirm_dialog_message">Are you sure you want to cancel this appointment?</string>
+    <string name="delete_am_dialog_message">Are you sure you want to delete this medicine?</string>
+    <string name="close_confirm_dialog_message">Are you sure you want to close this appointment?</string>
+    <string name="cancel_confirm_dialog_confirm">Yes</string>
+    <string name="cancel_confirm_dialog_dismiss">No</string>
+    <string name="gotit">Got It</string>
+    <string name="LAB_REPORTS_VIEWPAGER">Lab Reports</string>
+    <string name="X_RAY_VIEWPAGER">X-Ray, CT Scans</string>
+    <string name="DOC_NOTES_VIEWPAGER">Doc Notes</string>
+    <string name="MISC_VIEWPAGER">Misc</string>
+
+    <string name="walkin_VIEWPAGER">Walk-in</string>
+    <string name="online_VIEWPAGER">Online</string>
+
+
+    <string name="success_dialog_title">Success</string>
+    <string name="success_dialog_message">The patient record including Voice and Notes has been successfully saved!</string>
+    <string name="success_dialog_message_appt">Appointment Successfully Closed!</string>
+    <string name="success_dialog_confirm">Ok</string>
+    <string name="slide_to_cancel">Slide to cancel</string>
+
+    <string name="profilepicd">https://ezshifa.com/emr/doc_profile_image/</string>
+    <!--<string name="profilepicd">https://e-healthai.com/ezshifa/doc_profile_image/</string>-->
+
+    <string-array name="titlearray">
+        <item>Select Title</item>
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Miss</item>
+        <item>Ms</item>
+        <item>Dr</item>
+        <item>Prof</item>
+        <item>Sir</item>
+    </string-array>
+    <string-array name="quantitydrop">
+        <item>0.5(Half)</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="dosagedrop">
+        <item>HS(At bed time)</item>
+        <item>Before Meal</item>
+        <item>Morn</item>
+        <item>Aftrn</item>
+        <item>Eve</item>
+        <item>Morn-Aftrn</item>
+        <item>Aftrn-Eve</item>
+        <item>Morn-Eve</item>
+        <item>Morn-Aftrn-Eve</item>
+    </string-array>
+    <string-array name="timeperiod">
+        <item>SOS(As required)</item>
+        <item>STAT(Immediately)</item>
+        <item>1 Day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>4 weeks</item>
+        <item>Once in a week</item>
+    </string-array>
+    <string-array name="unitdrop">
+
+        <item>Tablet</item>
+        <item>Sachet</item>
+        <item>CC</item>
+        <item>Tea spoon</item>
+        <item>Table spoon</item>
+        <item>Injection</item>
+        <item>Capsule</item>
+        <item>Ampule</item>
+        <item>Drops</item>
+
+    </string-array>
+
+    <string name="bpMessage">Blood pressure is the pressure of circulating blood against the walls of blood vessels. Most of this pressure results from the heart pumping blood through the circulatory system
+
+
+
+Top number (systolic) in mm Hg
+
+And/or
+
+Bottom number (diastolic) in mm Hg.
+
+</string>
+    <string name="slMessage">The blood sugar level, blood sugar concentration, or blood glucose level is the concentration of glucose present in the blood of humans.
+
+For the majority of healthy individuals, normal blood sugar levels are as follows: Between 4.0 to 5.4 mmol/L (72 to 99 mg/dL) when fasting. Up to 7.8 mmol/L (140 mg/dL) 2 hours after eating.</string>
+    <string name="brMessage">A persons respiratory rate is the number of breaths you take per minute. The normal respiration rate for an adult at rest is 12 to 20 breaths per minute. A respiration rate under 12 or over 25 breaths per minute while resting is considered abnormal.</string>
+    <string name="prMessage">Your heart rate, or pulse, is the number of times your heart beats per minute.</string>
+    <string name="oxMessage">Your blood oxygen level is a measure of how much oxygen your red blood cells are carrying.
+
+
+
+95-100%          Normal
+
+91-94%            Below Average
+
+less than 90%              Consult your doctor</string>
+    <string name="tempMessage">Normal body temperature varies by person, age, activity, and time of day. The average normal body temperature is generally accepted as 98.6°F (37°C). </string>
+    <string-array name="bloodgroups">
+        <item>Don\'t Know</item>
+        <item>O-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+    <string name="title_activity_patient_appointment">PatientAppointment</string>
+    <string name="title_pt">Patient Details</string>
+    <string name="title_an">Add Notes</string>
+    <string name="title_vitals">Vitals</string>
+    <string name="title_obs">Obs Data</string>
+    <string name="show_details_underline">
+        <u>Show Details</u>
+    </string>
+
+    <string name="send_msg_failed">Failed to send message</string>
+    <string name="peer_offline">Peer is offline</string>
+    <string name="message_cached">Message cached by server</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="temperatureicon">temperatureIcon</string>
+    <string name="temperature">Temperature</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="pulse_rate">Pulse Rate</string>
+    <string name="breathing_rate">Breathing Rate</string>
+    <string name="oxygen">Oxygen</string>
+    <string name="sugar_level">Sugar Level</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="patient_reports">Patient Reports</string>
+    <string name="check_kiosk_accessories">Check KIOSK Accessories</string>
+    <string name="please_select_reason_of_logging_out">Please select reason of logging out</string>
+    <string name="username_picture">usernamePicture</string>
+    <string name="divider">Divider</string>
+    <string name="password_icon">passwordIcon</string>
+    <string name="weak">Weak</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="chats">Chats</string>
+    <string name="more">More</string>
+    <string name="mute">Mute</string>
+    <string name="toggle_video">Toggle Video</string>
+    <string name="signal_strength">Signal Strength</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="ezshifa">EZSHIFA</string>
+    <string name="video_call_users">Video Call Users</string>
+    <string name="video_off_img">Video not available</string>
+    <string name="title_obs_data">Obstetrical Data</string>
+    <string name="iv_back_button">ivBackButton</string>
+    <string name="prescription_history">Prescription History</string>
+    <string name="no_medicines_available">No Medicines available</string>
+    <string name="doze_time">Doze Time</string>
+    <string name="quantity">Quantity</string>
+    <string name="patient_medicine">Patient Medicine</string>
+    <string name="no_diagnosis_available">No Diagnosis available</string>
+    <string name="no_tests_available">No tests available</string>
+    <string name="patient_tests">Patient Tests</string>
+    <string name="patient_diagnosis">Patient Diagnosis</string>
+    <string name="ear">Ear</string>
+    <string name="eye">Eye</string>
+    <string name="test_image">Test Image</string>
+
+</resources>

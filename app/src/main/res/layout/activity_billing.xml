@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ca_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bs_back_btn"
+                android:layout_width="32dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:scaleType="center"
+                android:src="@drawable/back_button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="32dp"
+                android:text="Billing Report"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/llview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ca_toolbar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="1dp"
+        android:weightSum="1.0">
+
+        <Button
+            android:id="@+id/mtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:background="@drawable/monthlyrbtn" />
+
+        <Button
+            android:id="@+id/tdtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:background="@drawable/todatebtn" />
+
+        <Button
+            android:id="@+id/cvtext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:background="@drawable/cancelledbtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:weightSum="1.0">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".33"
+            android:text="Monthly Revenue" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".33"
+            android:text="To-Date Revenue" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".33"
+            android:text="Cancelled Visits" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bsmblistview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/llview2"
+        android:layout_marginTop="7dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <ProgressBar
+        android:id="@+id/bs_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/mvtxtca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/emptytextca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="120dp"
+        android:text="Dear user, you do not have any billing record."
+        android:textStyle="bold"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="app_theme">#2394d1</color>
+        <color name="app_theme_bg">#F0F0F0</color>
+
+<!--        <color name="colorPrimary">#2394d1</color>-->
+        <color name="colorPrimary">#B82025</color>
+        <color name="colorPrimarylight">#2394d1</color>
+        <color name="colorPrimaryDark">@color/colorWhite</color>
+<!--        <color name="colorAccent">@color/pink_dark</color>-->
+        <color name="colorAccent">#B82025</color>
+
+        <color name="black_overlay">#66000000</color>
+        <color name="colorWhite">#FFF</color>
+        <color name="colorFont">#8d9389</color>
+        <color name="colorBlack">#000</color>
+        <color name="transparent">@android:color/transparent</color>
+        <color name="transparent_color">#00000000</color>
+        <color name="pager_indicator_background">#CC1B1D1E</color>
+        <color name="pager_indicator_fill_color">#D8D8D8</color>
+        <color name="pager_indicator_page_color">#80D8D8D8</color>
+        <color name="white">#FFFFFF</color>
+        <color name="redcolor">#E9353D</color>
+        <color name="view_bg">#ececec</color>
+        <color name="tab_bg">#464444</color>
+        <color name="accent_translucent">#80FFEB3B</color>
+
+        <color name="pink_dark">#2394d1</color>
+        <color name="pink_dark_calendar">#2394d1</color>
+
+        <color name="app_bg">#EDEDED</color>
+        <color name="red">#DF0000</color>
+        <color name="red_file">#8C1A1A</color>
+        <color name="green">#00A222</color>
+        <color name="blue">#002E57</color>
+        <color name="black">#000</color>
+        <color name="view_seperator">#D5DADE</color>
+        <color name="grey">#808080</color>
+        <color name="buttons_color">#FF9900</color>
+        <color name="textColor">#635F74</color>
+        <color name="grey_dark">#FF000000</color>
+        <color name="hint_color">#80ffffff</color>
+
+        <color name="list_group_title">#808080</color>
+        <color name="list_item_title">#AAAAAA</color>
+
+        <color name="group_divider_color">#80CBC4</color>
+
+        <color name="grey_light">#d8d9d9</color>
+        <color name="cell_border_grey">#dfdfdf</color>
+
+        <color name="category_group_bg_grey">#dAd9d9</color>
+
+        <color name="category_group_color_grey">#707070</color>
+        <color name="lime">#E6EE9C</color>
+        <color name="orange">#FFCC80</color>
+        <color name="purple">#B39DDB</color>
+        <color name="pink">#F48FB1</color>
+        <color name="parrot">#6da645</color>
+        <color name="time_slot_gren">#08973c</color>
+        <color name="cyan">#08B5C8</color>
+
+
+        <color name="app_very_light_grey">#f2f3f4</color>
+        <color name="app_light_grey">#bdbec0</color>
+        <color name="app_dark_grey">#8c8e8d</color>
+        <color name="dialog_background">#808c8e8d</color>
+        <color name="app_toolbar_color">#F9F4F1</color>
+        <color name="app_calendar_selection">#4B87E2</color>
+
+        <color name="event_color_01">#59dbe0</color>
+        <color name="event_color_02">#f57f68</color>
+        <color name="event_color_03">#87d288</color>
+        <color name="event_color_04">#f8b552</color>
+
+
+
+    </resources>
+

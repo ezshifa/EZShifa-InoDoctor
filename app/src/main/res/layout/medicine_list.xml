@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/medlistlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/addedmedbg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/medname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+
+            android:layout_weight="1.50"
+            android:text="Panadol"
+            android:textColor="@color/black"
+
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/medunit"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/medquantity"
+            app:layout_constraintTop_toTopOf="@+id/medquantity" />
+
+        <TextView
+            android:id="@+id/medquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="0.5"
+
+
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/medname"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/delmed" />
+
+        <TextView
+            android:id="@+id/meddosage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+
+            android:layout_weight="1.50"
+            android:text="Morning"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/delmed"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/medtimeperiod"
+            app:layout_constraintTop_toTopOf="@+id/medquantity" />
+
+        <TextView
+            android:id="@+id/medtimeperiod"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+
+            android:layout_weight="1.50"
+            android:text="3 days"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/meddosage"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/medunit"
+            app:layout_constraintTop_toTopOf="@+id/medquantity" />
+
+        <TextView
+            android:id="@+id/medunit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+
+            android:layout_weight="1.50"
+            android:text="Injection"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/medtimeperiod"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/medname"
+            app:layout_constraintTop_toTopOf="@+id/medquantity" />
+
+        <ImageView
+
+            android:id="@+id/delmed"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/deletemedbtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/meddosage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/grey"
+            app:layout_constraintBottom_toBottomOf="@+id/medquantity"
+            app:layout_constraintEnd_toStartOf="@+id/medname"
+            app:layout_constraintStart_toEndOf="@+id/medquantity"
+            app:layout_constraintTop_toTopOf="@+id/medquantity" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/grey"
+            app:layout_constraintBottom_toBottomOf="@+id/divider"
+            app:layout_constraintEnd_toStartOf="@+id/medunit"
+            app:layout_constraintStart_toEndOf="@+id/medname"
+            app:layout_constraintTop_toTopOf="@+id/medname" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/grey"
+            app:layout_constraintBottom_toBottomOf="@+id/divider"
+            app:layout_constraintEnd_toStartOf="@+id/medtimeperiod"
+            app:layout_constraintStart_toEndOf="@+id/medunit"
+            app:layout_constraintTop_toTopOf="@+id/medtimeperiod" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:background="@color/grey"
+            app:layout_constraintBottom_toBottomOf="@+id/divider"
+            app:layout_constraintEnd_toStartOf="@+id/meddosage"
+            app:layout_constraintStart_toEndOf="@+id/medtimeperiod"
+            app:layout_constraintTop_toTopOf="@+id/meddosage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
